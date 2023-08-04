@@ -54,3 +54,14 @@ for i, c in enumerate(nome):
 #break # serve pra pular aquela condição ou aquele bloco de codigo 
 #continue # pular pra proxima etapa, ignorando a interação do laço
  
+ # função eval 
+
+a = 2 
+b = 1
+
+equacao = input("Digite a formula geral da equação linear (a * x  + b ): ")
+print(f"\nA Entrada do usuario {equacao} e do tipo {type(equacao)}")
+
+for x in range(5):
+    y = eval(equacao)
+    print(f"\nResultado da equação para x {x} e {y} ")
