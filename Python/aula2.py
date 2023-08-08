@@ -24,3 +24,19 @@ print(numeros_pares)
 
 # Tuplas n são mutaveis
 
+# criando um dicionario 
+
+dici_1 = {}
+dici_1['nome'] = "João"
+dici_1['idade'] = 30
+
+# Algoritimos de busca
+
+# Busca linear vai passar pela lista ou percorrer ate encontar o item especifico 
+
+vogais = 'aeiou'
+resultado = vogais.index('e')
+print(resultado)
+
+# Complexidade = a melhor forma e mais rapida de deixar o codigo limpo e usar menos recursos
+
