@@ -65,3 +65,5 @@ print(f"\nA Entrada do usuario {equacao} e do tipo {type(equacao)}")
 for x in range(5):
     y = eval(equacao)
     print(f"\nResultado da equação para x {x} e {y} ")
+
+
