@@ -25,6 +25,4 @@ int main(int argc,char** argv) {
 
     printf("\n Desconto Inss: %f\n",inss);
     printf("\n Salario liquido %2.f\n",sal_liquido);
-
-    
 }
