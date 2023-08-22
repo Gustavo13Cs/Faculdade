@@ -1,4 +1,7 @@
 import pandas as pd #pra fazer a biblioteca funcionar
+from datetime import date
+from datetime import datetime as dt
+
 
 pd.Series(data=5)
 lista_nomes = "Gustavo Luiz Adson Kauan Felipe".split()
@@ -25,7 +28,34 @@ print('Quantos valores existem? ',series_dados.count()) # conta quantas vvalores
 
 lista_nomes2 = "Gustavo Luiz Adson Kauan Felipe".split()
 
-pd.DataFrame(lista_nomes2, columns=['nome'])
+dfs = pd.DataFrame(lista_nomes2, columns=['nome'])
 print(pd.DataFrame(lista_nomes2, columns=['nome']))
 
 # o Pandas consegue ler um site e transformar em DataFrame, extrair dados 
+
+# Criar novas colunas 
+
+data_extracao = date.today()
+dfs['data_extracao'] = data_extracao
+
+print(dfs.info())
+
+# to_datime serve pra converter uma coluna
+# astype transforma os dados de uma coluna em um determinado tipo
+
+data_extracao = date.today()
+dfs['data_extracao'] = data_extracao
+dfs['data_extracao'] = dfs['data_extracao'].astype('datetime64[ns]')
+
+print(dfs.info())
+dfs.head()
+
+
+
+
+
+
+
+
+
+
