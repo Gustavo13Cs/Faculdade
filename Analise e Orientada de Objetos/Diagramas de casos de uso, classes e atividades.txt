@@ -1,0 +1,66 @@
+Diagrama de casos de uso - representa os requisitos do projeto, represente oq o cliente quer , além de ser essencial para projetos de UML
+
+Extend - indica que não é obrigatorio, opcional 
+
+Genaralização = herança 
+
+include - obrigatorio 
+
+Multiplicidade = serve para analisar para quantos casos de uso vai ta disponivel ou pessoas etc.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Diagrama de classe - geralmente o mais usado 
+
+Atributos , Metodos , Classes - é todo  , Objeto - instancia da classe 
+
+Classes - abastratas são mais usadas pra organizar ou simplificar uma hirarquia 
+
+Interface - representa um contrato 
+
+herança = genalização 
+
+implementação = classe responsavel por executar outras classes 
+
+Multiplicade - identificar o numero maximo e minimo para instancias de classe 
+
+Agregação - n e obrigatorio 
+
+Composição - obrigatorio 
+
+--------------------------------------------------------------------------------------------------------------
+
+Diagrama de atividade = maior parte das anotações ta na pratica
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
