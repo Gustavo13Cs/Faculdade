@@ -1,0 +1,81 @@
+Modelagem de estados 
+
+são os estados dos objetos (exemplo mudança de um atributo , troca ou modificação)
+
+FORK = um fluxão chegando e dois saindo (meio que dividindo eles)
+
+JOIN = dois fluxõs chegand e uniando eles pra sair um
+
+
+
+Clasulas pra detalhar os estados 
+
+Do = representa uma atividade realizada durante o tempo em que o objeto se encontra no estado.
+
+Entry = representa as ações realizadas no momento que o objeto assume o novo estado.
+
+Exit = representa as ações executadas quando o objeto esta mudando de estado.
+
+
+Diagrama de Sequencia --------------------------------------------------------------------------------------------------------
+
+mostra a troca de mensagem entre os objetos 
+
+esteriotipos das classes
+
+boundary = denominado de classes de fronteira , é aquele que representa a interface do sistema
+
+control = denominado de classe de controle , o qual serve de intermediario entre as classes definidas 
+como boundary e entity 
+
+entity = denominado de classe de entidade é aquele que mostra que as classes do sistema tbm são entendidas
+
+fragmentos 
+
+ref = uma interação independente 
+
+alt = escolha ente duas ou mais ações 
+
+opt = modela a construção procedimental do tipo se.... ent 
+
+loop = representa que uma interação deve ser realizada zero ou mais vezes;
+
+Diagrama de comunicação ------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
