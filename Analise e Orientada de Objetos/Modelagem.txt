@@ -1,0 +1,47 @@
+Modelagem 
+
+
+Restringe o foco a um unico aspecto por vez.
+
+Quanto mais complexto o sistema , mais importante a modelagem.
+
+Processo Unificado ------------------------------------------------------------------------------------------------------------------------------
+
+tem seus processos , concepção, Elaboração, Construção e Transição (Requisitos,Analise e projeto, implementação e Testes)
+
+ele e interativo e incrimental.
+
+Fase de concepção = o planejamento do projeto, a difinição da ideia do negocio, delimitação do escopo do sistema , o entendimento do contexto do sistema e 
+a definição dos principais casos de uso do sistema;
+
+Requisitos = requisitos funcionais(cores especificas,segurança etc) e n funcionais (compactibilidade,funções etc)
+
+Analise e projetos ----------------------------------------------------------------------------------------------------------------------------------
+
+a gente tenta resolver o problema , problemas alternativos etc.
+
+Diagrama de implantação serve pra falar sobre as configurações de Hardware (a parte fisica do sistema).
+
+Diagrama de estrutura composta = busca idenficiar a arquitetura do conjunto de elementos que interagem.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
