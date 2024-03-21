@@ -30,6 +30,8 @@ como boundary e entity
 
 entity = denominado de classe de entidade é aquele que mostra que as classes do sistema tbm são entendidas
 
+ O relacionamento de inclusão oferece suporte à reutilização de funcionalidades em um modelo de casos de uso.
+
 fragmentos 
 
 ref = uma interação independente 
@@ -39,6 +41,8 @@ alt = escolha ente duas ou mais ações
 opt = modela a construção procedimental do tipo se.... ent 
 
 loop = representa que uma interação deve ser realizada zero ou mais vezes;
+
+Comunicação assíncrona é aquela que não acontece em tempo real.
 
 Diagrama de comunicação ------------------------------------------------------------------------------------
 

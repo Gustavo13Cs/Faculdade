@@ -1,0 +1,124 @@
+Metodos construtores
+
+a declaração de um construtor é obrigatoria e deve sempre possuir o mesmo nome da classe . n existe nenhum tipo de retorno , fica responsavel por cria - lo em memoria 
+é possivel criar mias de um construtor dentro da mesma classe.
+
+public class Carro {
+
+  public Carro() {
+
+     construtor de objeto
+
+  }
+
+}
+
+public class Venda {
+
+  public static void main(string[] args) {
+
+  Construtor da classe Carro
+
+  Carro Ford = new Carro();
+
+}
+
+}
+
+
+Classifição dos construtores 
+
+implicito - n possui nenhum codigo 
+explicito - possui codigo , mas sem argumentos 
+explicito - possui codigo e com argumentos 
+
+SobreCarga de metodos 
+
+usar o mesmo nome de metodo mais de uma vez , mudando apernas os argumentos
+
+A sobrecarga consiste num conceito de polimorfismo que e empregado na criação de variações de um mesmo metodo.
+
+pra sobreescrever um metodo precisa usar o @override em cima 
+
+
+Estrutura de Decisão ---------------------------------------------------------------------------------------------------
+
+Definição - essas tomadas de decisão rompem com o fluxo linear do codigo, criando bifurações que ajudam a tornar o codigo mais dinamico (if e IF-else)
+
+operador ternario - maneira simplificada de construção de comandos do tipo if-else (ExpLogicaA ? ComandoA : ComandoB;)
+
+Switch-case | Switch-case-default = Esse comando prove o que chamamos de estrutura de seleção multipla baseado em alguma variavel de controle.
+
+Requisições ------------------------------------------------------------------------------------------------------------------------------------------
+
+Sincrona - Nesse tipo de requisição cada operação deve ser concluida para que uma nova operação possa ser realizada , o navegador precisara recarregar a pagina 
+apois enviar os dados.
+
+Assincrona - Nesse tipo de requisição não é necessario aguardar o fim de uma operação . Não ha necessidade de recarregar a pagina. (na pratica , n precisara
+do botão salvar por exemplo).
+
+For = primeiro vai testar uma condição, vai repetir o codigo até certo momento 
+
+While = Enquanto um valor for verdadeiro , quando n for ele vai pro falso
+
+Do While = faça isso enquanto a condição for verdadeira . quando n for ele sai 
+
+Break e Continue = pode quererer interromper todo o fluxo de um laço de repetição a qualquer momento ou , em vez disso , desejar interromper parte de um trecho de
+codigo dentro de um loop e ir diretamente para a estrutura de decisão, para tnto , a palavra reservada breack e continue deverão ser utilizadas
+
+Modificadores de acesso 
+
+Ele permite ou não algum metodo (public , private , protegido,Default)
+
+
+public Aplicavel a propria classe e a qualquer outra.
+Protegido protected Aplicavel a propria classe, outras classes dentro do proprio pacote e dentro de subclasses em outros pacotes.
+Default Aplicavel a propria classe e a outras classes dentro do pacote.
+Private Aplicavel a propria classe somente.
+
+
+
+Metodos getters e setters 
+
+São conhecidos como gets e sests , Os metodos gets servem para pegar alguma informação . ja os metodos sets servem para definir alguma informação
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
