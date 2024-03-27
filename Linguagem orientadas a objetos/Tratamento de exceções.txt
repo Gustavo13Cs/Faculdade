@@ -1,0 +1,100 @@
+Entradas de dados e leituras de valores 
+
+Existem duas formas principais de se interagir com uma aplicação 
+
+1 - acontece passando se argumentos no momento da execução do programa
+
+2 - se da por meio da leitura de valores em tempo real
+
+args = parametro que recebe os valores
+
+Sequencias de scape 
+
+\n = pular pra linha de baixo
+\ insere tabulações 
+\ insere barra invertida
+\" insere aspa dupla
+\r Realiza retorno do carro 
+
+Espeficadores de formato 
+
+%d Valor inteiro em decimal com sinal
+%o valor inteiro em octal som sinal 
+
+existe varios outros .... lista enorme
+
+
+Estrutura de pastas 
+
+src/ = codigo fone de aplicação 
+
+test/ codigos de teste
+
+lib/ = dependencias do projeto
+
+dist/ = arquivos de distribuição com .jar e suas dependencias 
+
+build/ = arquivos gerados pelo processo de compilação 
+
+Documentação e interface ----------------------------------------------------------------------------------------------------------------------
+
+Construir um codigo legivel e bem documentado é extremamente importate , pois ele necessita de atualizações e podera ser lido por outros 
+programadores , a forma mais simples de documentar um codigo se da por meio de comentarios.
+
+For Each 
+
+é utilizado, geralmente , para se fazer a interação em coleções como vetores, matrizes, listas , entre outros.
+
+Varargs - a lingaugem java nos permite chamar um metodo diretamente passando n valores e os parametros enviados são automaticamente adicionados em um array de mesmo tipo. Um varargs. (TipoArg... args) - bom pesquisar sobre e dominar 
+
+Interfaces ----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Comparable = e utilizada para impor uma ordem nos objetos de uma determinada classe que a implementa 
+
+Runnable = e utilizada para espeficicar alguma tarefa a ser realizada
+
+Serializable = e utilizada para identificar classes em que os objetos podem ser gravados ou lidos de algum dispositivos de armazenamento,como HD
+
+Conceitos de Aplicação grafica -------------------------------------------------------------------------
+
+
+Interfaces Graifcas de Usuario 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

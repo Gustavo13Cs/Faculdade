@@ -7,7 +7,7 @@ public class numeroPar {
 
         System.out.println("informe um numero inteiro: ");
 
-        int numero = valor.nextInt();
+        int numero = valor.nextInt(); 
 
         if(numero % 2 == 0) {
             System.out.println("O numero digitado é par");
