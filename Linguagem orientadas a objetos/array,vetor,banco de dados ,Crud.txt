@@ -42,6 +42,28 @@ o string pool - ele fica meio que solto na memoria
 Heaap = String str1 = new String("Orientação a objetos"); 
 STRING POOL = String str2 = "Orientação a objetos";
 
+BANCO DE DADOS -------------------------------------------------------------------------------------------------------------------------------------------
+
+pode ser pensado como uma forma de armazenar e consultar dados (valores separados por virgulas(CSV))
+
+os bancos de dados geralmente utilizam uma lingaugem de consulta , e a principal linguagem de consulta utilizada , e a SQL(Structured Query Language)
+que e uma linguagem padrao para armezenamento , manipulaçãoe recuperação de dados em BD.
+
+Banco relacional = organiza em tabelas 
+
+CRUD 
+
+Create - Diz respeito a criação de dados
+Read - Leitura ou consulta de dados
+Update - Atualização do dados
+Delete - Deleção ou destruição dos dados. 
+
+
+
+
+
+
+
 
 
 
