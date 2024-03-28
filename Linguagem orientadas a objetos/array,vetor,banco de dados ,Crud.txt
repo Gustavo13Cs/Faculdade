@@ -1,0 +1,74 @@
+Arrays 
+
+Unidimensionais permite a criação de arrays, um vetor agrupa um conjunto de dados de um mesmo tipo organizados em linha ou coluna , e por trabalhar com dados 
+do mesmo tipo (sempre tem q ser o mesmo tipo), 
+
+Criação 
+
+tipo nomeVetor[];
+
+Alocação de espaço de um vetor = nomeVetor - new tipo[]
+
+Multidimensionais 
+
+formato de Matriz , com colunas e linhas.
+
+Criação
+
+tipo nomeMatriz [][];
+
+nomeMatriz = new tipo[][];
+
+String --------------------------------------------------------------------------------------------------------
+
+Definição = e uma classe possui uma importancia caracteristica, que e ser imutavel, isso quer dizer que uma vez atribuido um valor literal, para a variavel , existira
+uma memoria , so que sem nenhhum objeto apontando para si, assi, se vc construir uma aplicação que modifique constantemente o valor da variavel , vc terá um
+desempenho ruim em termos de gastos de memoria e de processamento 
+
+StringBuilder 
+
+outra classe que existe para manipular strings e e uma boa alternativa a classe String se desejar que o conteudo da string seja mutavel.
+
+StringBuffer 
+e uma boa alternativa as outras duas classes se desejar que conteudo seja mutavel e necessita de uma aplicação thread safe.
+
+O que significa ser Thread-Safe?
+O conceito de Thread-Safe surgi quando há a necessidade de trabalhar-se com programação concorrente, seu principal objetivo é garantir que 2 ou mais threads que estejam em “condição de corrida” não obtenham informações erradas
+
+HEAP X STRING POOL - amabas são areas na memoria 
+
+o string pool - ele fica meio que solto na memoria 
+
+Heaap = String str1 = new String("Orientação a objetos"); 
+STRING POOL = String str2 = "Orientação a objetos";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
