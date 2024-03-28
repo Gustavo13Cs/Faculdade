@@ -1,0 +1,54 @@
+o que é oo ?? e um paradigma de programação que aproxima a manipulção das estruturas da programação ao mundo real. de grosso modo e a forma de escrita de um determinado codigo , desde que ele a aceite, podendo reutilizar codigo , pela construção de classes.
+
+paradigma de programação , o imperativo se preocupa em COMO fazer(procedural e POO) já o declarativo se preocupa com o que fazer 
+
+
+POO (ABSTRAÇÃO,ENCAPSULAMENTO,HERANÇA,POLIMORFISMO) -------------------------------------------------------------------------------------------
+
+Abstração significa definir e focar no que e necessario no desenvolvimento(ele se preocupa apenas com oq e preciso e necessario)
+
+Encapsulamento significa proteger algo , detalhes interno do funcionamento dos metodos de uma classe parmaneça oculto para os objetos, ou seja , é possivel esconder
+propriedades e metodos da classe, impedindo mudanças nos atributos
+
+Herança é o termo que representa a relação entre classes diferentes no que tange a reutilizar codigos , esse conceito representa a possibilidade de criar novas 
+classes que podem hedar atributos e metodos daquela que passar a ser conhecida como classe pai.
+
+Polimorfismos , Diz respeito a capacidade da linguagem de programação do processar objetos de formas diferentes , dependendo do seu tipo de dado ou classe. a vantagem
+e ter metodos com o mesmo nome mas que são implementados de formas diferentes.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+AS Classes representam algo do mundo real ou imaginario. o objeto nada mais e que a manifestação concreta de uma classe,tbm chamado de instancia da classe
+
+Clases uma boa forma de compreender uma classe é pensar nela como o projeto ou a modelagem de algo.
+
+Atributos um atributo e um elemento que representa as caracteriticas intrinsecas da classe
+
+Método e outro elemento importante de uma clase são os metodos , Um metodo da ao objeto da classe a capacidade de executar algum tipo de ação, comportamento ou 
+processamento.
+
+classes, objetos e metodos 
+
+classe Carro (marca,modelo,cor,combustivel)
+objeto carro A(fiat,punto,branco,flex)
+objeto carro b(ford,ka,vermelho,gasolina)
+
+Metodos: ligar,acelerar, frear.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
