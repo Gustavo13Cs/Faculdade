@@ -1,0 +1,22 @@
+Banco de dados 
+
+Ele pode cuidar de varias parte de um projeto, pois ele guarda as informações apenas.
+
+E Muito importante que os dados estejam armazenados mto bem, pra que haja duvidas , deixe bem aparente
+
+Sistema Gerenciador de Banco de Dados - sgbd
+
+Funções: organizar, acessar , controlar e manter, compartilhar e proteger as informações
+
+Possibilita a implementação da modelagem dos dados
+
+Garantir a segurança (eu q tenho que garantir essa segurança)
+
+Estar distibuido em varios computadores.
+
+Possibilitar o isolamento das transação. (ta ligado com a segurança).
+
+UML e XML são muitos usados na parte dos bancos de dados.
+
+
+
