@@ -18,5 +18,82 @@ Possibilitar o isolamento das transação. (ta ligado com a segurança).
 
 UML e XML são muitos usados na parte dos bancos de dados.
 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+Para cada tabela e bom fazer a modelagem pra saber oq e necessario pra aquela tabela , ou utilizar de outras (atributos)
+
+muito importante o usuario participar do desenvolvimento do banco, pra saber tudo certo
+
+DBA - tem que tratar da segurança do banco , do hardware , bankcup , tem q cuidar da maior parte das funções de um banco
+
+tomar cuidado com quem deve ter acesso as tabelas, pra alterar, deletar ou mexer em outras funções 
+
+Manutenção - liberar espaço, realizar backup, atualizar o hardware.
+
+Projetista de BD - analista de sistemas que elabora o DER (diagramas)
+
+-------------------------------------------------------------------------------
+
+Modelagem de Banco de Dados
+
+tem que pensar nos processos de cada parte.
+
+Modelagem grafico = Linguagem simplificada - UML e um bom exemplo 
+
+Tabela = Alunos 
+Coluna = Matricula, Nome,Dt nasc
+Tupla/Linha: 1515,Anna Lee, 18/6/1986
+
+------------------------------------------------------------------------------------
+
+Segurança da Informação
+
+Redudancia = saber onde aquele dado pode ou n estar em mais de uma tabela, saber sempre deixar bem especificado , fazer o balanciamento 
+
+Recuperação de falhas.
+Responsabilidades = quem fará o backup ??? quem terá acesso ao backup???
+Meios: Como sera realizado o backup ??? onde vai ficar salvo ?? midia ??nuvem ??? hardware ??? software ??
+Periodo : qual o intervalo dos backups ??
+Retenção : quanto tempo o backup deve ficar armezenado na mesma midiaw?w
+Armazenamento: onde serão armazenado
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+E MAIS QUE UM MERO REPOSITORIO DE DADOS 
+
+saber usar o banco de dados pra outros fins.
+
+Dados - Regras de negocio - Estrategia - Decisões
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
