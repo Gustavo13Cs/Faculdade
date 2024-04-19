@@ -19,3 +19,69 @@ Squencia da modelagem
 
 Análise de requisito dps modelo conceitual dps modelo logico(DER) e por fim modelo fisico
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Modelo Conceitual - descrição consisa das informações que o software deverá possuir, 
+
+representação do que precisa ser realizado e não como deverá ser realizado
+
+Vantagens - Visão de nivel macro , indenpendecia de hardware e software(SGBD), focado no problema e não na solução
+
+Modelo Logico ----------------------------------------------------------------------------------------------------------------
+ 
+aplicamos o conceito de modelos de entidade e relacionamento com o foco na criação do banco de dados 
+
+Entidades são transformadas em tabelas 
+
+relacionamento são reproduzidos ou criados 
+
+tipo de dados e suas escalas são definidos 
+
+Modelo Fisico ------------------------------------------------------------------------
+
+Definição das estruturas de armazenamento no BD, as chaves e os relacionamentos 
+
+Comandos com sintaxes especificas e executados diretamente no SGBD(commit)
+
+Sequencia de execução
+
+---------------------------------------------------------------------------------------------
+
+Entidade - contem atributos proprios (tabelas)
+
+Atributos - campo da entidade ou de relacionamento. (nome,curso,matricula,duração)
+
+Relacionamento - relação determinada pela regra de negocio (relaciona uma tabela com a outra)
+
+Desenvolver as atividades:
+
+ concepção - objetivos e soluções desejados (quais os objetivos da tarefa)
+ 
+ elicitação - definição dos dados e informações (criar e definir dados especificos pra cada caso)
+
+ Elaboração - modelar dados (entidades e relações)
+
+ negociação - complementar o modelo de dados (validação)
+
+ 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
