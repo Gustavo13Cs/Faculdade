@@ -1,0 +1,21 @@
+Processos e igual regras de negocios. 
+
+Modelagem de dados = detalhadamento dos tipos de informação q serão guardados no banco de dados
+
+Processo progressivo , partindo de uma compreensão simples de um problema e, na medida que haja um melhor endimento , ent o nivel de detalhes se ampliará 
+
+o Der e mto usado pra modelar bancos de dados.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fases da análise e modelagem de dados
+
+o projeto de um sistema de informações é uma atividade complexa - a partir do momento que cria estruturas de dados, quando fica mto profundo o analise 
+
+Ponyos que devem ser considerados na análise de requisito e de dados.
+
+Abrangencia ,Nivek de detalhamento , Tempo de produção e recursos disponiveis
+
+Squencia da modelagem 
+
+Análise de requisito dps modelo conceitual dps modelo logico(DER) e por fim modelo fisico
+
