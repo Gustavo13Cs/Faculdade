@@ -64,8 +64,18 @@ Desenvolver as atividades:
  negociação - complementar o modelo de dados (validação)
 
  
+--------------------------------------------------------------------------------------------------------------------
 
+Tipos de entidades , entidades fortes , fracas ou dependentes(só vai existir se tiver a forte) , agredados (juntamente vão completar, mais de uma entidade) , subordinadas, associativas (associando duas ou tres)
+
+graus de cardinalidade 
+
+1-1 - um para um 
+1-N - um para muitos 
+N-1 - muitos para um 
+N-N - muitos para muitos
   
+
 
 
 
