@@ -1,0 +1,37 @@
+Ciclo de vida de banco de dados 
+
+Estudo Inicial(estudar as diversas áreas) - 
+Projeto (entendimento e construção do banco) - 
+Implementação e carga (adicionar dados ao banco) 
+Teste e avaliação (testar o banco)
+operação (colocar pra trabalhar)
+Manutenção e evolução (se precisar atualizar o banco, fazer manutenções etc)
+
+ 
+Fase concepção e entendimento 
+
+- Delimitar a dimensão do problema/solução 
+- Estratégia valir os elementos e os agrupamentos de dados
+- Padronização
+- Dicionario de dados são fundamentais no processo de entendimento, para evolução e novos membros no time (descrição,tipos de dados,chaves,usuarios e permissoes, cardinalidade: quantidade de vezes que tem relacionamentos.)
+
+
+UML / POO 
+
+classe - um tipo de dado, é formada por dados e comportamentos 
+nome - refere- se ap qie será armazenado
+atributo - dadp e o dominio 
+metodos - comportamento
+
+
+UML - DIAGRAMAS de CASO DE USO,ATIVIDADE,CLASSES ETC
+
+
+
+
+
+
+
+
+
+
