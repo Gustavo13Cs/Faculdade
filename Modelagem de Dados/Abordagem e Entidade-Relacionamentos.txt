@@ -20,11 +20,50 @@ UML / POO
 
 classe - um tipo de dado, é formada por dados e comportamentos 
 nome - refere- se ap qie será armazenado
-atributo - dadp e o dominio 
+atributo - dado e o dominio 
 metodos - comportamento
 
 
 UML - DIAGRAMAS de CASO DE USO,ATIVIDADE,CLASSES ETC
+
+
+Ferramente Case para MER ------------------------------------------------------------------------------
+
+São ferramentas que ajuda pra fazerr UML por exemplo , diagramas etc
+
+o Software que produz software 
+
+Geração de codigo, geração de documentação , testes e relatorios.
+
+brModelo,Lucidchart,Astah são app que podem ajudar a fazer 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Herança na UML 
+
+Para atender as necessidades do mundo real , na poo podem ter niveis , superclasse e subclasses (e bom perceber quais as tabelas principais e subprincipais)
+
+Herança no Mer , que num DER a generalização e a especialização são relacionamentos entre entidades , que determina que uma entidade contém a outra, isto quer dizer que uma entidade superior contém um ou mais conjuntos de entidades inferiores.
+
+a generalização e a especialização são um tipo de relacionamento entre entidade que determina que uma entidade superior contém um ou mais conjuntos de entidades inferiores.
+
+Considerações sobre Herança no MER
+
+Restrição de Disjunção(d) uma entidade pode pertecer a,no maximo, um subconunto de entidade especializada (um funcionario por exemplo só pode ter uma profissão)
+Restrição de Sobreposição(o) uma entidade especializada pode pertecer a mais de um subconjunto de entidades ao mesmo tempo(empregado)
+Parcial: nem toda ocorrencia da entidade generica possui uma ocorrencia correspondente em uma entidade especializada(n tem que ter especificação)
+Total : para cada ocorrencia da entidade generica , existe sempre uma ocrrencia em uma das entidades especializada (tem que ter especificação)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
