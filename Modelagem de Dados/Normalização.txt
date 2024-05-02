@@ -1,0 +1,21 @@
+Normalização - visa  o refinamento, evitar o maximo a redundancia.
+
+Redudancia - nada mais que dados duplicados e bem definidos. (criando FK ajuda mto resolver a redudancia)
+
+Vantagens - diminuição de dados repetidos, aumento de perfomance, armazenamento de forma logica, facilidade na criação de consultas e manutenção 
+
+Dependencia funcional - identificar algumas dependencias que aquela tabela necessita pra funcionar ou recolher dados de outras , consite em uma restrição entre dois ou mais conjuntos de atributos de uma mesma tabela ou relacionamento
+
+Formas normais de boyce - codd 
+
+1FN,2FN,3FN 4Fn = GARANTE ENTIDADES PROJETADAS COM EXATIDÃO
+essas formas se baseiam na dependencia funcional entre atributos de uma entidade do banco de dados e nas chaves primarias 
+
+Tem que saber da regra de negocio pra entender
+
+Dependencia Funciona Transitiva(indireta) - coloca dados desnecessarios na msm tabela.
+Dependencia funcional Total (completa) - atributos como chave, tudo bem feito e determina.
+Dependencia Funcional Parcial - mais de dois tipos de dependencia
+
+
+
