@@ -18,4 +18,81 @@ Dependencia funcional Total (completa) - atributos como chave, tudo bem feito e 
 Dependencia Funcional Parcial - mais de dois tipos de dependencia
 
 
+Regras de Normalização 
+
+Coerencia - um unico assunto por tabela
+Duplicação de atributos(exeto em casos de perfomance)
+Todos os campos de uma tabela deve depender exclusivamente de chave primaria - e ela que determina 
+Livres de inconsistencia de dados
+
+Tipo de atributos 
+
+Simples ou atomicos - são aqueles que tem um significado só ou texto só
+Compostos - são aqueles que compoem com mais de um dado
+Monovalarodo - atributo que tem apenas um valor pra tabela(rg,cpf etc) normalmente ele n vai duplicar
+Multivalorado - varios tipos de telefone por exemplo(telefone,celular,comercial etc)
+Derivado - são os valores que são derivados de outros atributos(valor total por exemplo)
+----------------------------------------------------------------------------------------------------------------------------
+Uma tabela estara na 1FN
+
+Se, e somente se , todos os seus atributos forem atomicos.
+N possuindo grupos repetitivos ou colunas que possuam mais de um valor.
+-----------------------------------------------------------------------------------------------------------------------------
+Uma tabela estara na 2FN
+
+Se, e somente se , estiver na 1FN
+Todas as suas colunas que n são chavez , dependam exclusivamente da chave primaria(de toda a chave primaria e n só de parte dela)
+---------------------------------------------------------------------------------------------------------------------------------------
+Uma tabela estara na 3FN
+
+Somente se estiver na 2FN
+
+Não pode conter dependencia funcionais dos seus atributos n chave com outros atributos n chave
+Atributos que são calculados baseado em outros atributos são eliminados(medias de notas por exemplo, ou total)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Uma tabela estara na 4FN
+
+Somente se estiver na 3FN
+
+Se n existir dependencia multivalorado - quando as informações inseridas nas tabelas podem ficar se repetindo e , produzir redundancias na tabela
+
+Todo campo precisa ser atomico(n pode ser divido em varios campos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
