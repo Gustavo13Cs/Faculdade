@@ -1,0 +1,8 @@
+Tudo tecnologico tem um sistema operacional 
+
+o Sistema operacional é um conjunto de rotinas executados pelo processador.
+
+tem basicamente duas funções , facilitar o acesso a recursos do sistema e organizar o compartilhamento de recursos de forma garantir sua proteção
+
+o Sistema operacional trabalha em camadas
+
