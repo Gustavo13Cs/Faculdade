@@ -1,0 +1,258 @@
+as empresas começaram perceber que valia mais a pena lançar no mercado seus produtos com os erros corregidos e bem feitos , com isso começaram a investir em testes e programas para isso.
+
+“testes de softwares têm a finalidade de assegurar que um programa atende às necessidades dos seus usuários, como também servem para descobrir defeitos em seu funcionamento antes de disponibilizá-lo para uso”.
+
+definem defeito (do inglês, fault) como “sendo um passo, processo ou definição de dados incorretos”
+
+e engano (do inglês, mistake) como “a ação humana que produz um defeito”. Para que estes erros aconteçam,
+
+ teste de unidade é feito na menor unidade de programação de um código, geralmente dado por uma rotina, como um if/else, um for ou um loop. 
+
+teste de integração testa diferentes unidades, podendo ser definida uma rotina de testagem a cada incorporação de uma nova unidade ou a cada número fixo de unidades incorporadas, dependendo do tamanho do código. Este teste garante que as unidades funcionem de forma coordenada e em conjunto.
+
+O teste de sistema, além de testar o código como um todo e sua funcionalidade, também testa outros aspectos, como segurança, performance e robustez. Normalmente, ele é seguido de um teste de aceitação do programa pelo cliente. 
+
+quando o produto estiver em fase de produção, devem ser feitos testes de manutenção, também chamados de testes de regressão, para se certificar de que o programa está funcionando corretamente, que ainda é seguro contra o ataque de hackers e que as novas funcionalidades (atualizações) foram incorporadas de maneira correta.
+
+a EQUIPE QUE DESENVOLVEU O CODIGO E DIFERENTE DA TESTAGEM 
+
+Procura por defeitos = divide em etapas durante a testagem de software 
+
+Principais etapas 
+
+•  Planejamento.
+•  Projeto.
+•  Execução.
+•  Análise de resultados.
+Estas etapas podem ser resumidas no anagrama PDCA, ilustrado na Figura 2, que retrata o Plan – Do – Check – Action, ou seja, planeje, aja, cheque e recomece novamente.
+
+quais são os testes
+chegar os resultados(as ações)
+
+Caixa preta , codigo como algo fechado , pronto e sem que seja possivel acessa lo e mudalo , e testado todas as funcionalidades do programa 
+
+Caixa Branca , e possivel acessar e corregir o codigo , teste de integração e de unidade = time de desenvolvimento 
+
+ESTUDO DE CASO ---------------------------------------------------------------------------------------------------------------------------------------------
+
+Meio que produzir um relatorio bem elaborado, pra identificar erros e problemas no caso.
+
+"o CUSTO DE SE ENCONTAR UM DEFEITO NO SISTEMA AUMENTA 10 VEZES A CADA ETAPA DO PROCESSO EM QUE ESSE ERRO AVANÇA"
+
+Revisão do produto: testes de sofware e de flexibilidade 
+Trasição do produto: compravado que o sofware possui interoperabilidade , resubilidade e portabilidade 
+
+Operação do produto : realizadas as correções para garantir a confiabilidade e integridade do programa, Medida sua eficiencia real
+
+Nivel de Maturidade ----------------------------------------------------------------------------------------------------
+
+A cada nivel ultrapassado, seu processo de testagem torna-se melhor e mais otimizado;
+
+Nivel 1 - nivel inicial 
+
+Testes de sofware n seguem nenhuma sequencia padronizada e são feitos de forma aleatoria, caso sejam feitos
+
+Nivel 2 - conhecido como nivel gerenciado , Deve ter:
+
+Uma politica e estrategia de teste: um planejamento de teste , um monitoramente e controle dos testes , um projeto para a execução de cada teste
+
+Nivel 3 - Definido 
+
+uma organização do processo de testagem , um programa de treinamento para os desenvolvedores e engenheiros, acompanhamento do ciclo de vida e integração dos software desenvolvidos , testes não funcionais e revisão por pares.
+
+Nivel 4 - chamado de gerenciado Quantitavamente 
+
+Medição constante dos testes realizados 
+
+Avaliação da qualidade do sofware
+
+Revisão por pares avançada 
+
+Procedimento já consolidados
+
+NIVEL 5 - CHAMADO DE OTIMIZADO E COMPOSTO POR:
+
+PREVENÇÃO DE DEFEITOS
+
+OTIMIZAÇÃO DO PROCESSO DE TESTE;
+
+CONTROLE DE QUALIDADE 
+
+A EMPRESA JA TORNA ISSO TUDO MTO NORMAL
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+TESTE - UNITARIO , E O PRIMEIRO TESTE , AO LONGO DO DESENVOLVIMENTO DO CÓDIGO 
+
+TESTE DE INTEGRAÇÃO - TESTA UM CONJUNTO DE CODIGOS , PARA VERIFICAR Q TODOS OS ATRIBUTOS SOLICITADOS PELO CLIENTE ESTÃO PRESENTES NO CODIGO 
+
+FASE DE VALIDAÇÃO - ESTÁ OU N DE ACORDO COM AS CARACTERISTICAS DO CLIENTE 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Teste unitarios 
+
+cada estrutura for,if,loop , condições verdadeiro ou falso , devem ser testadas 
+
+infinitas condições de teste = tempo e dinheiro 
+
+Testar erros em potencial.
+
+Testar caminhos (qual caminho e mais rapido ou facil pra chegar no resultado onde queremos.)
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+TESTE DE AUTOMAÇÃO 
+
+TESTE DE CAIXA PRETA , FOCADO NAS INTERFACES DO SISTEMA
+
+FUNÇÕES INCORRETAS OU AUSENTES
+
+ERROS DE INTERFACE
+
+ERROS DE ESTRUTURAS DE DADOS 
+
+ERRO DE DESEMPENHO OU COMPORTAMENTO 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+TESTE PONTO A PONTO 
+
+Drivers e stubs escolhidos corretamente e infraestrutura de apoio 
+
+Drivers - fornece todos os dados necessarios para se testar 
+
+Stubs - ferramente que auxilia na simulção de comportamentos para uma dada unidade que ainda n foi desenvolvida
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Estudo de Casos 
+
+Situação que e colocada pra compreender e ver oq deve ser feito 
+
+Sempre bom refazer os codigos msm se ja usou o mesmo codigo em outros projetos
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para Maxin e Pressman, 2021 
+
+Não há nenhum problema ao produzir software "bom o soficiente" pelo contrario , isso e aceitavel e toleravel , pois as empresas ja adotam isso como pratica a muito tempo 
+
+Produtos com erro(bugs) ja conhecidos , os quais n impedem , em parte , o usuario de trabalhar
+
+o custo e dividido em prevenção , avaliação e Falhas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
