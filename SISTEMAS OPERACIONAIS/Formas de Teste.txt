@@ -1,0 +1,38 @@
+TDD - TEST - DRIVEN - DEVELOPMENT 
+
+ESCREVA UM TESTE QUE FALHE , DEPOIS ESCREVA UM CODIGO PARA PASSAR NO TESTE , E POR FIM REFATORE SEU CODIGO
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+METEDO V de Desenvolvimento 
+
+Etapas sequenciais 
+
+cada etapa do desenvolvimento está associado a uma etapa de testes
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DIAGRAMA DE CASO DE USO 
+
+e mto utilizado pra registrar as conversas entre cliente e projeto, feito logo no começo de tudo.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Scrum como metodo agil 
+
+permite a realizar entregas de sofware menores e com maior frequencia atraves de iterações curtas com duração entre 1 a 4 semanas
+
+Equipes multidisciplinares
+
+Cerimonias diarias no inicio e fim de cada sprint
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
