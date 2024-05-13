@@ -144,6 +144,9 @@ Produtos com erro(bugs) ja conhecidos , os quais n impedem , em parte , o usuari
 
 o custo e dividido em prevenção , avaliação e Falhas.
 
+Os testes de verificação e validação desempenham papéis distintos no processo de garantia de qualidade do software. Os testes de verificação são realizados no código, componentes e funcionalidades do software, garantindo conformidade com requisitos e padrões de design.
+
+Já os testes de validação ocorrem sem a execução do software, assegurando que atenda às necessidades e expectativas dos usuários finais. A principal diferença entre eles está na natureza e no objetivo dos testes.
 
 
 

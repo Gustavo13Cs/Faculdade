@@ -1,0 +1,142 @@
+QUALIDADE E ATOMÇÃO DE TESTES 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TESTE UNIDADE ou unitarios 
+
+teste de codigo e programas 
+
+executado pelo desenvolvedor ou testador 
+
+Algumas ferramentes JUnit , jasmine,Nunit,Pytest
+
+TÉCNICAS DE TESTES DE SOFTWARE -----------------------------------------------------------------------------------------------------------------------
+
+faz parte da Validação - parte do codigo 
+
+Caixa BRANCA - focado no codigo 
+
+Analise do codigo 
+
+Executado pelo desenvolvedor 
+
+Teste unitarios 
+
+CAIXA PRETA - n fica preocupada com o codigo, e sim sim com o teste 
+
+Analise dos resultados dos testes
+
+Executação pelo testador ou cliente final 
+
+Testes de integração e testes funcionais
+
+Testes caixa cinzas - mescla as tecnicas de testes caixa preta e branca e pode ser utlizada em testes de integração ou teste de performance por exemplo. onde a validação do codigo e necessaria 
+
+Teste Ahpha e beta ----------------------------------------------------------------------------------------------------------------------------------------------
+
+está ligado a versão do programa 
+
+Aplha - testes realizados na versão alpha do software
+
+Executado por desenvolvedores ou testadores
+
+Objetivo: identificar e corregir bugs
+
+Testes caixa branca e preta
+
+Beta - testes realizados na versão beta , principal diferança e que as pessoas participam dessa fase
+
+Executados por testadores e usuarios do sistema
+
+Objetivo: identificar e reportar e corregir falhas 
+
+Testes caixa preta 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TESTE DE REGRESSÃO - objetivo, manter a qualidade da nova versão do sistema
+ 
+evitam falhas em partes não modificadas do sistema
+
+Tende a ser mais demorada e a elevar os custos
+
+Podem ser automatizadas
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Testes funcionais e testes betas 
+
+objetivo principal pros testes funcionais , validam funcionalidades , executados pelos usuarios da aplicação , pode utilizar a tecnica de testes beta
+
+
+CICLO DE VIDA DE UM SOFWARE ---------------------------------------------------------------------------------------------------------------------------------------
+
+iNICIO - PLANEJAMENTO dps analise, desenho , codificação e implementação , manutençãp e volta pro inicio 
+
+o ciclo continuo enquanto o sofware existir 
+
+Evoluções e correções 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
