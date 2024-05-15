@@ -1,0 +1,88 @@
+o Sistema operacional e um cojunto de rotinas que conhecemos como nucleo do sistema , tbm chamado de kernel, que tem por função realizar o controle e tratamento de interrupções e exceções.
+
+system call que pode ser explicito ou implicito 
+
+explicito, há uma instrução de qual chamada devera ser executada no proprio programa 
+
+implicito , há a inserção de um comando da linguagem de programação 
+
+
+Tipos de arquitetura do nucleo ---------------------------------------------------------------------------------------------------------------------------------------
+
+Monolitica, modulos executados separadamente mas que compoem um unico executavel
+
+Camadas , devido a complexidade do sistema , ele e dividido em niveis e suas funções so podem ser utilizadas por camadas superiores
+
+Maquina virtual , faz o intermedio entre o hardware e o sistema operacional , pode haver varias maquinas virtuais em uma unica maquina 
+
+MicroKernel , menor e mais simples , trata servições por processos que oferece funções
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hardware - os dados do processo ficam armazenados nos registradores (status,pc e sp)
+
+Sofware - há a espeficiação de recursos e suas limitações para que possam ser alocados os processos , nome, pid , ownerm m, prioridade , data hora 
+
+Armazenamento - refere - se á área de memoria que sera alocado o processo que possa ser executado(um app por exemplo)
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Processos são programas ou tarefas em execução e o Sistema operacional e o responsavel por adm, por meio do gerenciador de processos .
+
+muito normal um processo fazer abrir outros processos , por precisar buscar outras informações.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CPU é responsavel por altenar os programas , executando os por dezenas ou centenas de milissegundos , para que cada um tenha acesso ao processamento , dando a ilusão ao usuario de paralelismo ou pseudoparelismo 
+
+o pseudoparelismo  e a falsa impressão de que todos os programas estão executando ao mesmo tempo, mas na verdade o que acontece e que tudo e executado aos poucos.
+
+o sistema busca sempre colocar o processo mais prioritario em primeiro , na frente de outros 
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Estado do processo 
+
+o processo está EM EXECUÇÃO enquanto é processado pela UCP , sendo que os processos revezam o tempo de processamento.
+
+Quando o processo se encontra no ESTADO DE PRONTO , quer dizer que o processo esta aguardando para ser processado.
+
+Estado de espera acontece quando o processo agurda um recurso para continuar o processamento ou aguardando o tratamento do evento.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
