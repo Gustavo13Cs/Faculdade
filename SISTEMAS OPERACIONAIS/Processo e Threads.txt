@@ -49,6 +49,94 @@ Quando o processo se encontra no ESTADO DE PRONTO , quer dizer que o processo es
 
 Estado de espera acontece quando o processo agurda um recurso para continuar o processamento ou aguardando o tratamento do evento.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+o S.O se comunica com o usuario de tres formas , atraves de procedimentos proprios do sistemas , por meio da interação com os aplicativos ou ainda , atraves das linguagens de comando 
+
+Modo Usuario - isso quer dizer que apenas instruções chamadas não previlegiadas poderão ser executadas e , por isso , uma quantidade menor de instruções a executar
+
+Modo kernel - o sistema operacional tem acesso irrestrito as instruções do processador .
+
+Buffer - armazenara temporariamente as informações para que sejam acessados.
+
+TRATAMENTO DE ERROS 
+
+EXCLUSÃO MUTUA - esse mecanismo impede que dois ou mais processos sejam executados compartilhando o mesmo recurso simultaneamente
+
+SINCRONIZAÇÃO CONDICIONAL : implementa a sincronização de execução dos processos associados a uma verificação condional de acesso a região critica 
+
+SEMAFOROS - este mecanismo foi implementado por Dijkstra em 1965 , permite a pratica de exclusão mutua com a inserção de condição para acesso a região critica e execução dos processos 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Algoritimo de Dijkstra - sicronização de tempo para que os recursos do programa todos sejam processados, quando um acabar , ir pra outro. (se houver recursos)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Escalonador de processos - objetivos 
+
+Dar previlegios para aplicação criticas 
+
+Balancear o uso de CPU entre processos.
+
+Ser justo com todos os processos , pois todos devem poder usar o processador 
+
+Maximizar a produtividade(throughput).
+
+Porporcionar menores tempos de resposta para usuarios 
+
+interativos.
+
+
+PREEMPTIVO - compartilhamento de tempo e recursos.
+
+intercala os processos em execução
+
+
+NÃO PREEMPTIVO 
+
+RECURSOS DEDICADOS 
+
+SÓ HÁ liberação quando o processo é finalizado ou por erro de execução
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+os processos estão sempre competindo pelo processador 
+
+Criterios de comportamento de processos 
+
+ Orientado a processador : criteiro que determina que um processo tende a utilizar todos os recursos do processador 
+
+ operações de ES: utiliza o processador apenas para atender as requisições das opera~=ções de entrada e saida
+
+ processo em lote: há a alocação de recursos de processamento sem a interação com o usuario para executar um determinado processo ou grupo de processos 
+
+ processo interativo: nesse criterio., o usuario precisa participar com as entradas de dados 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
