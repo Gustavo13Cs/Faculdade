@@ -1,0 +1,133 @@
+as metedologias ageis divide grandes projetos em pequenos projetos , pra executar
+
+SCRUM 
+
+percebe - se uma uma necessidade latente em processos mais rapidos e assertivos
+
+KanBan ele pontencializa o SCRUM - agil adaptativo
+
+scrum abrange: 
+
+ Projetos complexos e com mudanças frequentes.
+ Gerenciamento de tarefas de trabalho
+ Formação de equipes auto gerenciaveis 
+ Implementação de processos iterativos e incrementais
+ Eliminação de impedimentos
+ Valorização do individuo
+
+A equipe dita o ritmo de trabalho 
+
+Sistema puxada de produção 
+
+Desenvolvimento de forma incremental 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+As metodologias ageis funciona para equipes pequenas e grandes , pode se adptar , elas respondem mais rapido as mudanças 
+
+as empresas grandes tem dificuldade e grandes desafios em aplicar as metodologias, pelo fator do tamanho da empresa
+
+atualizar os programas podem ser mto vantajosos, mas sempre tem que lembrar do Hardware no caso 
+
+Atualizações constantes do programas ---- 
+
+ Custo é elevado de manutenção
+
+ Hardwares mais potentes e caros 
+
+ Compatibilidade de perifericos e conexões
+
+A empresa tem q avaliar se vale a pena atualizar o software ou troca-lo  
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Na decada de 80 foi a crise de software , porque avia muitos erros , e bugs , sem muitos testes
+
+Ferramentas Cases --- automatizar os testes e identificar os problemas , ele facilita dmsss
+
+ Padronização de processos 
+
+ reutilizar ferramentes e linhas de codigos 
+
+ aumento de produtividade 
+ 
+ automatização das atividades 
+
+ tempos de desenvolvimentos são otimizados e redução de custos 
+
+ integração das equipes e etapas 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A importancia do escopo de um projeto 
+
+ desenhar o projeto e etapas de forma mais simples e mais visivel, assim consegue identificar as necessicidades e oq vai ser usado, fazendo uma previa e padronizando seu projeto. 
+
+ Formulção das atividades do projeto 
+
+ definição de tratamento de base dados 
+
+ testes de funcionamento 
+
+Software de prateleira é o nome pelo qual são conhecidas as soluções que são comercializadas já prontas no mercado. São sistemas desenvolvidos em larga escala, que seguem um determinado padrão e estão disponíveis para compra e uso imediato.
+
+
+INVASÃO DE HACKER ------------------------------------------------------------------------------------------------------------------------------------------
+
+
+hacker no começo era conhecido como pessoas que tinha grande conceito de programação , conheciam os sistemas mto bem 
+
+Cracker - pessoas que cometem crimes ti etc , app e em webs sites e banco de dados 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

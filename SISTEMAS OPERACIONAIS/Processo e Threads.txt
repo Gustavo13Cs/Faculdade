@@ -114,6 +114,9 @@ Criterios de comportamento de processos
  processo interativo: nesse criterio., o usuario precisa participar com as entradas de dados 
 
 
+As threads do processador são as menores unidades utilizadas para o processamento de informações dentro de um determinado sistema. Assim, quando um processo roda na máquina, ele pode envolver uma ou mais threads, que estão sempre ligadas umas com as outras, mesmo que trabalhem de forma independente.
+
+
 
 
 
