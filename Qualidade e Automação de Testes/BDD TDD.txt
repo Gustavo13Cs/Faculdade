@@ -1,0 +1,224 @@
+BDD - DESENVOLVIMENTO ORIENTADO AO COMPORTAMENTO 
+
+ possibilidade de solucionar os problemas dentro dos projetos , pras equipes 
+
+ BDD tras uma diversidade pra organizar e evitar baixa perfomance 
+
+ BDDD surgie como possibilidade para solucionar problemas , por todos da equipe 
+
+BDD
+
+ Linguagem comum
+
+ Redução da complexidade 
+
+ Comunicação fluida 
+
+Atualmente e um dos metodos mais utilizados em equipes ageis 
+
+TDD ----------------------------------------------------------------------------------------------------------------------------
+
+TDD - Desenvolvimento Orientado por Testes 
+
+ vem tentar solucionar problemas tipo , grande parte do tempo de um projeto é destinado a fase de testes , Muitas falhas , entrega abaixa da expectativa 
+
+TDD e uma mudança de cultura tbm.
+
+Uma metodologia onde o teste é escrito antes do codigo 
+
+TDD se diferencia pelo auxilio em focalizar os problemmas certos na hora certa 
+
+ Incentiva o uso da escrita simples 
+
+ Melhora a confiança 
+
+ Possibilita a automação 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+BDD E NEGOCIOS 
+
+linguagem mais comum , entendida por todos as partes interessadas 
+
+Alia as regras de negocios á lingaugem de programação 
+
+Foco no requisito do projeto 
+
+ Auxilia a equipe a inserir o esforço em pontos criticos 
+
+
+Benificios do BDD
+
+ Melhor Comunicação 
+
+ Divisão de conhecimento 
+
+ Documentação Dinamica 
+
+ Visão como todo 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ciclos do BDD 
+
+ Principios do BDD 
+
+ Nada além do suficiente 
+
+ Entregar o valor as partes interessadas 
+
+ Baseado em comportamento 
+
+
+CRITERIOS DOS CENARIOS 
+
+ given(dado) - requisistos necessesarios 
+
+ When(quando) - acontecimento do fenomeno
+
+ Then(ent) - verificação do resultado
+
+a importancia do brainstorming ----------------------------------------------------------------------------------------------------------------------------
+
+ 
+ capitar ideias dos participantes de determinado grupo 
+
+ quantidade de mebros de 5 a 12 
+
+ Gerar e detalhar ideias com um determinado objetivo 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Programação e negocios 
+
+
+o testes 
+
+ o gargalo a ser enfrentado 
+
+ Muito tempo gasto com testes 
+
+ Projetos mais custosos 
+
+Tdd como solução , teste como prioridade 
+
+ Se baseia na testagem 
+
+ o teste vem antes do codigo 
+
+ Testes validando operações 
+
+TDD E OS PROJETOS 
+
+DEIXA OS PROJETOS MAIS LIMPOS 
+
+DIRECION O PROJETO 
+
+INDICA OS PROBLEMAS NA HORA CERTA
+
+REDUZ A QUANTIDADE DE FALHAS 
+
+ENCORAJA A SIMPLIFICAÇÃO DO CODIGO 
+
+
+CICLO DO TDD ----------------------------------------------------------------------------------------------------------------------------------------
+
+TESTAR , FALHAR E REFATORAR 
+
+TESTA(VERMELHO) - ESCREVER O TESTE E VEJA O TESTE FALHAR (FAZ PARTE DA MUDANÇA DE CULTURA)
+
+FALHAR(VERDE) - ESCREVER O CODIGO VEJA O TESTE SER VALIDO 
+
+REFATORAR(AZUL) - IMPLEMENTE O CODIGO E REFAZER OQ FOR PRECISO 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
