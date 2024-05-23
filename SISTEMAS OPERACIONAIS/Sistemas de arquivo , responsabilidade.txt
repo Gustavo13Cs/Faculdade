@@ -1,0 +1,126 @@
+Armazenamento da informação 
+
+Deve ser possivel armazenar um grande volume de informação 
+
+A informação deve sobreviver ao termino do processo que a usa 
+
+Multiplos processos tem q ser capazes de acessar a informação concorrentemente 
+
+o Sistema de arquivos -----------------------------------------------------------------------------------------------------------------------------------------------
+
+organizar esses dados e de extrema importancia para haja o respectivo direcionamento no sistema computacional 
+
+com isso , em função do tipo de processo que será adicionado , outro fator importante e a extensão dos arquivos , pois para cada uma , será realizado um procedimento de armazenamento de alocação de recursos destinto.
+
+o sistema operacional fica responsavel pro dar conta de tudo que podemos fazer com um arquivo. 
+
+Sequencial(n estruturada) - n há estrutura logica definida , preestalecida , o acesso ao registro e precario , pois é necessario a leitura de todos os registros , ate que seja encontrado o que está de fato sendo procurado.
+
+Indexada - os dados se interligam atraves de um indice , que , a partir de sua definição , organizara os dados de um registeo de acordo com uma determinada regra,  é essencial que exista um dado em comum entre os registros 
+
+Relativa ou direta - poderá ser localizada a partir de uma chave de acesso e do local em que está armazenado , o sistema de arquivos terá a responsabilidade de gerenciar o caminho do dispositov ou local de armazenarmento de arquivo.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Estrutura dos diretorios 
+
+
+a estrutura de diretorios é como o sistema organiza logicamente os diversos arquivos contidos na memoria 
+
+Atributos dos arquivos, tamanho, proteção , dono, criação , Backup e organização
+
+Existem a localização de arquivos em estruturas de diretorios de nivel unico e com dois niveis 
+
+a estrutura de diretorios de nivel unico , tem muitas limitações 
+
+ por exemplo os usuarios n podem criar arquivos com o o mesmo nomes , pois os arquivos recebem todas as caracteristicas destacadas e são alocadas para armazenamento 
+ 
+
+Dois niveis 
+
+ a estrutura de direotiro com dois niveis fez com que arquivos criados por contas de usuarios distintos pudessem ter os mesmos nomes , pois n estão alocados no mesmo direotiro e n causam danos de integridade ou conflitos na localização e acesso aos arquivos
+
+ARVORE -----------------------------------------------------------------------------------------------------------------------------------------------
+
+ A RAIZ E A PROPRIA ÁREA DO USUARio ESTÁ APONTANDO PARA OS DIRETORIOSE ESSES APONTAM PARA OS SEUS RESPECTIVOS ARQUIVOS 
+
+
+Alocação de arquivos  - tabelas 
+
+Para que o S.o possa alocar os arquivos e preciso que realize a gerencia dos espaços disponiveis em disco e quanto e quais partes do HD disponiveis 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Implementação de sistemas de arquivos 
+
+ evolve basicamente criar para cada arquivo o seu respsectivo descritor 
+
+ Descritor de arquivs : e um registro no qual são mantidas as informações a respeito do arquivo.
+
+Essass informações incluem os seus atributos , além de outros dados que n são visiveis aos usuarios mas que são necessarios para que s.o implemente as operações sobre arquivos.
+
+o descritor e acessado em todas as operações de leitura e escrita do arquivo 
+
+
+por ex - se o descritor teve o seu valor alterado , o sistema salvara uma copia que sobrepoe a anterior e essa copia em disco estara sempre atualizada
+
+
+Alocação contiga - aloca os arquivos e indicam onde e como deveriam ser colocados, vc que decide 
+
+Alocação por lista encadeada - organizar os mesmo como um conjunto de blocos ligados logicamente no disco, independente da sua localização fisica , cada bloco contem um ponteiro para o bloco seguinte do arquivo.
+
+Alocação por lista encadeada usando uma tabela na memoria , nesse metodo acada palavra de ponteiro de cada bloco de disco e inserida em uma tabela na memoria princial , chamada de FAT
+
+I-Nodes - NESSE METODO CADA arquivo é associado a uma estrutura chamada I-node relacionamento de atributos e os enderecos em disco dos blocos de arquivos , com o i node e possivel ecnotnrar todos os blocos de arquivos.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
