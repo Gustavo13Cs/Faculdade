@@ -1,0 +1,74 @@
+Com o passar da evolução os dispostivos sempre pedem mais memorias, principalemente os moveis 
+
+memoria cache - foi criada pra melhorar a velocidade e ajudar a memoria principal 
+
+
+Fluxo de gerencimenato de recursos de memoria e de processador 
+
+ a funação e de mapear os endereços logico para o mesmo correspondente na memoria fisica , quando o proprio processo gera o endereço logico e fisico , eles são identicos tanto na memoria logica , responsavel pelos endereçamentos , quanto na memoria fisica , que é correspondente na memoria principal.
+
+GERENCIAMENTO DE MEMORIA 
+
+ e tbm de responsbilidade gerenciamento de memoria manter a memoria fisica ou principal a maior quantidade de processos residentes de forma que seja recursos , como , por exemplo , de processamento , ou seja , permitir q um numero maior de processos leia as intruções e as execute.
+
+ overlay - considra que diante de uma aplicação , a divisão de modulos auxiliará na determinação ddo espaço de memoria necessaria a executar os modulos de forma independente.
+
+
+Segundo TanenBaum o gerenciamento de memoria pode ser dividido em duas classes:
+
+ 1: sistemas que durante o processamento levam e trazem a informação de memoria para o disco(troca de processos e paginação) e 
+
+ 2: sistemas que n o fazem , a troca de processos (swapping) carrega todo o programa para a memoria principal , o executar por um determinado tempo e depois o mesmo retorna para o discor. 
+
+ esse metodo de gerenciamento de memoria e o mais simples , pois somente um programa e executado por vez , e a memoria é compartilhada entre o sistema operacional 
+
+Multiprogramação com partipações fixas 
+
+ segundo tanenbaum  a maioria dos sistemas operacionais modernos permite que varios processos executem ao mesmo tempo , multiprogramação , e quando um prcoesso e bloqueado agurdando uma informação de entrada /saida , outro processo podera utilizar a cpu aumentando a sua utilização 
+
+ um dos problems de multiprogramação , a relocação e a transferencia de um codigo de um local para outro de forma que um programa n escreva na area de outro programa.
+
+e o outro problema e a proteção.
+
+swapping (troca de processos ) e realizado quando n existe memoria principal suficiente para executar todos os programas do computador ao mesmo tempo .
+
+swap out - o sistema escolhe um processo residente , que é transferido da memoria principal para a memoria secundaria, geralmente o disco
+
+swap- int - posteriormente , o processo e carregado de volta da memoria secundaria para a memoria principal e pode continuar sua execução como se nada tivessse ocorrido 
+
+outswapped - quando o processo escolhido para ser retirado da memoria principal está em estado de espera ou de pronto , podendo ser considerado n residente
+
+
+MEMORIA VIRTUAL --------------------------------------------------------------------------------------------------------------------------------------------
+
+SEGUNDO TANENBAUM - um computador q utiliza memoria virtual permite q o volume de informações de um programa como codigo dado e pilha ultrapasse a quantidade de total de memoria fisica disponivel para ele , mantendo as partes ativas na memoria e as demais no disco rigido 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
