@@ -1,0 +1,77 @@
+o que faz um data center ??
+
+ele e a composição da rede física e logica , pega dados de clientes ou servidores , fica responsável por transmitir esses dados 
+
+
+METRICAS GREEN 
+
+para medir e monitorar o desempenho sustentável de um data center , existem métricas especificas que podem ser aplicadas 
+
+(um data center consume mtooo energia) 
+
+PUE Power Usage Effectiveness - é uma métrica que mede a eficiência energética de um data center. O PUE é o quociente entre a energia total consumida no data center e o consumo de energia dos computadores e sistemas de TI. O PUE é uma excelente métrica para entender o quão bem um data center entrega energia para o seu equipamento de TI. 
+
+Utilização de energia renováveis 
+
+Uso eficiente de recursos - quanto melhor souber usar os recursos que temos em mãos , melhor 
+
+Virtualização de servidores - data center em nuvem, a vez de comportar em um lugar só , divide em vários lugares , deixando de ser algo apenas físico , e ganha praticidade 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+HDD - 1950
+DISQUETE 1970
+SSD - 2009
+CLOUD 2006 - 2013 TA EM CONSTANTE AVANÇO 
+
+
+Técnicas de gerenciamento para discos rígidos 
+
+Gerenciamento de energia avançado 
+
+Gerenciamento de energia do sistema operacional 
+
+Modo de suspensão 
+
+Desfragmentação regular 
+
+Substituição por unidades de estado solido (SSDs)
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Redes de computadores dois ou mais computadores interligados , meio físico de comunicação (hardware e software) , aplicativos para transferência de informação 
+
+
+FUNCIONAMENTO DE REDES E PROTOCOLOS 
+
+
+REDES PARA-A-PARA / CLIENTE SERVIDOR , todos computadores podem ser computadores e clientes ao mesmo tempo , tem limitação grande , e recomendado pra usar por transferências de dados pequenas 
+
+cliente servidor  , tem seus próprios servidores próprios, consegue usar as informações em ta conectado a internet , apenas estando conectado ao servidor, além de ser mto usado por grandes grupos .
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+CLOUD COMPUTING GREEN , ou computação em nuvem verde , refere-se a uma obordagem de implementação e uso de serviços de computação em nuvem
+
+
+
+NUVEM PRIVADA - as informações fica apenas dentro da própria nuvem 
+
+Nuvem publica - os usuários conectando de forma com a internet
+
+Nuvem Comunidade - o usuário consegue disponibilizar informações e a nuvem tbm , mas tendo alguns limite , a forma de consumo e totalmente diferente de usuário pra usuário 
+
+Nuvem Hibrida - as partições são conectados a nuvem, onde podem coletar dados e mandar dados livremente 
+
+
+
+
+
+
+
