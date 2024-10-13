@@ -1,0 +1,91 @@
+Provedores de computação em nuvem 
+
+uma das características da computação em nuvem é o pagamento baseado no uso 
+
+Cada provedor ofereça uma ferramenta de gerenciamento de custos e necessário uma solução adicional centralizada para agregar os custos dos diferentes provedores 
+permitem também a otimização do uso dos recursos, definição de orçamentos e analises de despesas , mecanismos para alinhamento contábil com politicas de governança corporativa.
+
+
+
+EXISTEM 3 METRICAS BASICAS 
+
+ - USO DE RECURSOS DE PROCESSAMENTO 
+
+ - USO DE RECURSOS DE ARMAZENAMENTO 
+
+ - USO DE RECURSOS DE TRANSMISSAO DE DADOS 
+
+
+CONTAINERS
+
+
+e muito usado para isolar e replicar instancias, e redução de custos 
+
+Escalamento automático 
+
+Exigência de menos recursos 
+
+Facilidade na replicação das instancias de execução 
+
+Custos mais baixos 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Serviço em computação em nuvem 
+
+os serviços de banco de dados em nuvem oferecem opções flexíveis e escaláveis para armazenar , gerenciar e acessar dados em ambiente de computação em nuvem.
+
+Amazon RDS e Microsoft Azure SQL DataBase, Google Cloud SQL são ótimos provedores para banco de dados em nuvem.
+
+Conforme a demanda, será necessário um plano melhor , onde o provedor oferece de acordo com o seu uso , assim vc n precisa se preocupar com a parte de HARDWARE, POIS E UMA PARTE QUE FICA COM O PROVEDOR.
+
+
+Armazenamento de objetos - repositórios para itens de dados binários(como vídeos , imagens etc)
+
+Armazenamento de bases de dados : sistemas de gerenciamento de banco de dados(SGBDs) mantidos pelo provedor 
+
+ -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Solução em nuvem 
+
+os provedores oferece soluções para diversas etapas do processo de desenvolvimento , desde a codificação até a implantação e o teste de aplicação em ambientes de produção nos provedores de computação 
+
+Essas soluções permitem automatizar todo  o ciclo de criação , teste e implantação de aplicações e uma infraestrutura gerenciada pelo provedor
+
+
+quando a gente tá em versão em nuvem , a gente n se preocupa com a versão , pois ela esta em constante atualização automaticamente. 
+
+Os serviços de aplicação multimidia são muito importante para facilitar o desenvolvimento de aplicação de streaming de vídeo , por exemplo 
+
+Provedor AWS , oferece vários serviços de mídia 
+
+Elemental MediaConvert , e importante como recurso para promover a portabilidade das soluções, pois permite gerar mídias em diferentes formatos 
+
+AWS elemental MediaConnect , e uma plataforma escalável e flexível para transmissão de vídeo ao vivo 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Armazenamento hospedado - principal categoria de armazenamento, para a qual os principais recursos da infraestrutura são direcionados o que confere a ela maior desempenho e disponibilidade e é nessa estrutura de armazenamento que os dados de uso do cliente ficam mantidos. tipo o DropBox
+
+Armazenamento de referencia - parte do ambiente de armazenamento em que são guardados via de regra , e outros tipos de arquivos que uma vez gravados , servirão como referencia para alguma consulta ou configuração adicional , tipo o wikipedia
+
+Arazenamento transitório , como o próprio nome sugere esse armazenamento e necessário apenas enquanto uma maquina virtual esta em execução sendo liberado quando da interrupção do funcionamento da maquina virtual . tipo o pesquisador
+
+Armazenamento persistente , de caráter permanente os dados mantidos nesse tipo de armazenamento são necessários nas reinicializações da maquina virtual e mantidos emsmo quando ela é interrompida , nesse tipo incluem se por exemplo arquivos de personalização de ambiente dados do usuário 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

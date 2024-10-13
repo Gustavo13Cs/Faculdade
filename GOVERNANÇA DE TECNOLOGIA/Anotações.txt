@@ -1,0 +1,57 @@
+governança da tecnologia da informação 
+
+
+identificar os problemas da missão e muito importante para o começo  
+
+Governança corporativa , e um sistema de relacionamento que envolve , principalmente os stakeholders da organização, em especial os acionistas, executivos e conselheiros. 
+
+Ela envolve processos , costumes , politicas e procedimentos que determinam uma empresa e administrada
+
+
+Transparência - divulgação de informações relevantes 
+
+Responsabilidade corporativa , os responsáveis pela governança(agentes , acompanhar e trabalhar para viabilidade da empresa. 
+
+
+ equidade - todos possuem direitos iguais , independentemente do porte de cada um , pois se parte do principio que todos tem os mesmo interesses e expectativas , além de responsabilidades , que tbm representam o papel de todos.
+
+
+prestação de contas , os responsáveis peça governança devem demonstrar as informações organização de forma clara 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GOVERNANCIA DE TI - FERRAMENTAS QUE ESPECIFICA AS DECISÕES E AS RESPONSABILIDADES PARA MELHORAR O DESEMPENHO, já para IT governança instituto , e de responsabilidade dos diretores e executivos no que tange a intermediação da compreensão das estratégias e dos objetivos da organização por parte da área de ti 
+
+para Andrade e Rossetti , as praticas de governança podem ser descritas a partir de diversas pontos de vista, Questão legais , financeiras , estratégicas e modelos de gestão 
+
+
+ISO 
+
+Alinhar a TI ao negocio , as aplicações e infraestruturas devem ter estratégias e objetivos alinhados as estratégias do negocio 
+
+manter a infraestrutura de serviços - criar mecanismos contra falhas e interrupções
+
+Alinhar a TI com marcos regulatórios - em conjunto com áreas de controle interno , complane e gestão de riscos definir quis normas devem ser seguidas 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+POR QUE A S.I impacta em governança e vice-versa ??
+
+a governança deve comunicar as praticas internas e os resultados aos stakeholders e a Segurança deve garantir a divulgação dessas informações de forma segura 
+
+
+segurança da informação , confidencialidade , integridade e disponibilidade 
+
+
+
+
+
+
+
+
+
+
+
+

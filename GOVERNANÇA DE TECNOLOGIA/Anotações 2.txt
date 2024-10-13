@@ -1,0 +1,11 @@
+COBIT foi estruturalmente desenvolvido para atender as necessidades da governança corporativa e seu foco está em compreender as necessidades do negocio , como os processos acontecem , o gerenciamento por meio de ferramentas de controle e analise das medições e criação de key performance indicator.
+
+
+governança - contem cinco processos de governança e dentro de cada processo são definidos praticas para avaliar dirigir e monitorar 
+
+gestão contem quatro domínios em consonância com as áreas responsáveis por planejar, construir e executar e monitorar 
+
+
+ITIL - PREENCHE AS LACUNAS DEIXADAS PELO COBIT 
+
+podendo ser adequados para cada empresa 

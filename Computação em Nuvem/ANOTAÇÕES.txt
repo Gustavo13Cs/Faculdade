@@ -1,0 +1,115 @@
+COMPUTAÇÃO EM NUVEM 
+
+
+COMEÇOU NO COMEÇO DOS ANOS 2000
+
+hoje em dia com a computação em  nuvem possibilita o acesso remoto , de modo ubíquo , convenente e sob demanda, a um conjunto compartilhado de recursos computacionais e configuráveis que podem ser rapidamente alocados e liberados com mínimo esforço gerencial ou interação com o provedor de serviços
+
+o conceito de virtualização permite que em um mesmo computador sejam criadas uma ou mais maquinas virtuais.
+
+uma maquina virtual e um software que emula o funcionamento de um computador ou seja , ela e capaz de executar programas como um computador real emulado , inclusivo os componentes de uma maquina física , como disco , processador , monitor e placa de rede
+
+
+CARACTERITICAS DA COMPUTAÇÃO EM NUVEM 
+
+. SELF SERVICE - o próprio cliente gerencia a alocação dos recursos 
+
+. Amplo acesso , os recursos podem ser acessados remotamente de qualquer lugar , por meio de tecnologias baseadas em padrões abertos
+
+. Pooling de recursos , o provedor mantem um robusto conjunto de recursos 
+
+. Elasticidade rápida , os clientes podem alocar mais recursos diante de um aumento de demanda ou liberar recursos em uso no caso de diminuição de demanda
+
+. Serviço medido - o uso de recursos pelos clientes é detalhadamente contabilizado para fins de tarifação e também para monitoramento da qualidade do serviço
+
+
+na computação em nuvem a atualização e sempre feita automática pelo provedor , sem o cliente se preocupar se deve ou não atualizar a nuvem
+
+
+MODELOS -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+o modelo de serviço define o nível de controle que o cliente tem sobre os recursos alocados no provedor 
+
+ao escolher um modelo de serviço com menor controle do cliente sobre infraestrutura subjacente , maior é o nível de abstração da complexidade 
+
+
+principais modelos serviços 
+
+
+INFRAESTRUTURA COMO SERVIÇO (IAAS)
+
+PLATAFORMA COMO SERVIÇO (PAAS)
+
+SOFTWARE COMO SERVIÇO (SAAS)
+
+
+IAAS - o cliente pode alocar capacidade computacional na forma de recursos computacionais virtualizados. (AMAZON C2, teste de aplicativos e sites por exemplo)
+
+cada servidor (maquina física ) podem ser criadas maquinas virtuais
+
+
+PAAS - o cliente não tem controle sobre a infraestrutura , ele recebe o provedor um ambiente já configurado e pronto para desenvolvimento de aplicações
+
+o cliente escolhe apenas a plataforma de desenvolvimento, linguagem de programação e banco de dados 
+
+o cliente se beneficia do provisionamento dinâmico de uma ambiente completo para desenvolvimento 
+
+
+SAAS - O CLIENTE ACESSO APLICAÇÕES E NÃO TEM NENHUM CONTROLE SOBRE OS RECURSOS COMPUTACIONAIS (Netflix , youtube , Dropbox , GOOGLE DOC ) 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+MODELOS DE IMPLANTAÇÃO
+
+
+existem vários software de servidor e plataformas que são amplamente utilizados para implantação e gerenciamento de ambientes em nuvem , oferecem recursos para provisionar , gerenciar , orquestra e monitorar recursos de computação em nuvem 
+
+maquinas virtuais que vão está na nuvem, em que a gente consegue colocar varias maquinas em um único computador 
+
+
+MODELOS DE IMPLATAÇÃO 
+
+
+nuvem privada - o ambiente de computação em nuvem de uso EXCLUSIVO dos usuários de uma única organização, por exemplo uma empresa ou uma faculdade 
+
+
+nuvem publica - a infraestrutura gerenciada por um provedor é compartilhada entre diversas organizações clientes , que podem ser empresas, instituições ou ate mesmo individuais  
+
+os recursos do ambiente de computação em nuvem são mantidos por um provedor e desmobilizados sob demanda para qualquer empresa cliente
+
+
+hibrida - fazer uso de uma nuvem privada e de nuvem publica ao mesmo tempo 
+
+nuvens hibridas representam cenários complexos uma vez que envolvem a divisão de responsabilidade administrativas entre os responsáveis por cada ambiente e também devido a eventuais problemas de compatibilidade.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ELASTICIDADE E ESCABILIDADE 
+
+ELASTICIDADE - e a capacidade de ua sistema ou aplicação ajustar dinamicamente seus recursos de computação de acordo com as demandadas variáveis da carga de trabalho ,envolve a capacidade de escalar para cima (aumentar recursos) ou para baixo(diminuir recursos) conforme necessário , permitindo que o sistema mantenha o desempenho e a eficiente operacional  
+
+
+
+ESCABILIDADE 
+
+a estabilidade pode ser alcançada de duas maneiras principais , horizontal e vertical , cada método tem suas caractericias distintivas 
+
+horizontal envolve adicionar mais instancias idênticas (maquinas virtuais , contêineres , servidores ) ao sistema para distribuir a carga de trabalho 
+
+ex - se um aplicativo web extá experimentando um aumenteo repentino no trafego , mais instancias de servidores wb podem ser provionadas automaticamente para lidar com a carga adicional 
+
+vertical - envolve aumentar ou diminuir a capacidade de uma única instancia adicionando mais recursos a mesma maquina 
+
+ex - se um banco de dados em um servidor único está sobrecarregado, pode - se escala-lo verticalmente adicionando mais cpu ou ram a mesma maquina 
+
+
+
+
+
+
+
+
+
