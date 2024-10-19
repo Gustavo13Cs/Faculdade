@@ -1,0 +1,59 @@
+CRM foi o primeiro serviço LAAS da AWS para serviços em nuvem, Denominado EC2
+
+A computação em nuvem representa uma inovação das quais podemos destacar , computação em cluster e em grade
+
+
+Cluster e um conjunto de computadores similares interconectados por uma rede alto desempenho , contribui muito para o avanço em mecanismos de balanceamento de carga e de recuperação de falhas que também são usados nos provedores de computação em nuvem , homogeneidade e a principal característica , deve ter o msm sistema 
+
+
+Grade consiste em reunir recursos computacionais de diferentes organizações mesmo que as tecnologias de hardware e software sejam diferentes , heterógenos.
+
+conteinerização pode ser entendido como um componente de software autossuficiente no sentido em que ele encapsula uma aplicação e todas as suas dependências (como bibliotecas , arquivos de configuração etc.) 
+diferentemente de uma maquina virtual o contêiner não inclui um sistema operacional.
+
+
+Docker e a principal tecnologia que viabiliza os container.
+
+
+A virtualização permite que um mesmo servidor seja compartilhado por varias aplicações de diferentes usuários de forma isolada e segura pois cada aplicação pode ser executada em uma maquina virtual diferente no mesmo servidor 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+PROVEDORES 
+
+uma das características dos serviços de computação em nuvem é o pagamento baseado no uso ou uso.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Migração de aplicação para a nuvem , muitas empresas temm adotado soluções de TI baseadas no modelo de computação em nuvem em virtude de vários benefícios como redução de custos e maior escabilidade.
+
+Portabilidade refere se como a facilidade com a qual um sistema pode ser levado de um ambiente para outro 
+o desejável e que a migração possa ser feita como o mínimo de adaptações necessários nos sistemas.
+
+interoperabilidade refere se a capacidade de diferentes sistemas , aplicações e serviços trabalharem juntos de maneira eficaz , mesmo que estejam em ambientes distintos ou sejam fornecidos por diferentes provedores de nuvem.
+
+gerenciamento de acesso de identidade - uma vez que um sistema e migrado para a nuvem seus administradores precisam redefinir como o sistema será gerenciado e utilizado no novo ambiente.
+
+
+para lidar com aplicações de serviços em provedores diferentes , foram criadas mecanismos de autenticação unificada (SSO).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
