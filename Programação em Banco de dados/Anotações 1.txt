@@ -1,0 +1,95 @@
+Geralmente quando fazemos ligação de muitos pra muitos , criamos uma nova tabela pra unir elas.
+
+
+Linguagem de Definição De Dados , DDL
+
+Create, Drop,Alter e Truncate
+
+Linguagem De Manipulação dos Dados DML
+
+Insert, Update , Delete 
+
+Linguagem de Consulta DQL
+
+Select, Show, Help
+
+Linguagem de Controle de dados DCL
+
+Grant,Renoke
+
+Linguagem de Transição de dados DTL
+
+Start Transaction , Commit, SavePoint, RollBACK
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Consultas são resultados de um produto cartesiano das tabelas especificas 
+
+Select Distinct serve pra selecionar todos da tabela , sem contar os duplicados 
+
+Where serve pra colocar condições logicas
+
+AS serve pra renomear o nome das colunas na hora de visualizar a consulta 
+
+Operarador LIKE determina a correspondência de padrões usando caracteres especiais % ou - 
+
+Operador Order by para ordenação (ASC ou Desc)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para planejar um banco de dados , entendemos que há cinco passos principais 
+
+Coletar informações
+identificar suas principais estruturas
+Modelar a estrutura
+Identificar nas estruturas os tipos de dados(bruto,de categorização,de identificação ,de referencia)
+identificar quais são seus relacionamentos 
+
+internacionalização de um banco de dados 
+
+Charset , designa um conjunto de símbolos e codificações e como eles são representados binariamente
+Collation , conjunto de regras para comparação de caracteres em um charset
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Diagrama entidade - relacionamentos 
+
+ser pra ter certeza que todos os dados existentes em um determinado contexto estão completamente representados 
+
+
+Modelo Conceitual - defini tabelas e relacionamentos das tabelas
+
+Modelo Logico - defini mais coisas , além das tabelas e relacionamentos , defini tbm os atributos, caracteres e outras informações 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
