@@ -1,0 +1,19 @@
+Tudo começou pelo HTML , onde e uma linguagem de marcação de texto , em 1969 e foi evoluindo até os dias atuais.
+
+HTTP (Protocolo de transferência de hipertexto)
+
+Get - Utilizado para obter dados e informações do servidor
+
+Head - etorna metadados sobre um recurso no servidor.
+
+POST - enviar uma representação de uma nova entidade de dados ao servidor de forma que ele seja armazenado como um novo subordinado do recurso identificado pelo URI.
+
+PUT - O método de requisição HTTP PUT cria um novo recurso ou subsititui uma representação do recurso de destino com os novos dados.
+
+
+CSS e uma linguagem de modificação , pra deixar o site mais bonito e robusto 
+
+
+
+
+
