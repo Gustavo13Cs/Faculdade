@@ -1,0 +1,62 @@
+AS CONSULTAS PARA SE EFUTAR UMA JUNÇÃO DEPENDEM DO TIPO DE JUNÇÃO, E DE UMA CONDIÇÃO DE JUNÇÃO , DESSA FORMA , COM O SQL SERA POSSIVEL RETORNAR RELAÇÕES COMO RESULTADOS
+
+
+FUNÇÕES SQL -------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Funções de agregação EM SQL , desenvolver consultas utilizando valores das colunas  como parâmetros de pesquisa(select)
+
+OS resultados das seleções podem ser organizados em grupos baseados no conteúdo existente em uma ou mais colunas
+
+
+DIStinct - INFORMA A QUANTIDADE PRODUTOS QUE TEM DIFERENTE NA TABELA
+
+Count, SUM, AVG , MAX , MIN  - são funções pra calculcar mínimo , quantidade , media , máximo etc
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SUBCONSULTAS - e considerado uma subconsulta, composta por SELECT FROM WHERE aninhada dentro de outra consulta , permitindo fazer comparações entre os conjuntos de dados
+
+Conectivos IN e NOT IN 
+
+HAVING E SIMILAR A WHERE 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+VISÕES E INDICES
+
+
+AS VISÕES E USADO PRA SALVAR A O RESULTADO EM TABELA , ASSIM FACILITANDO O TRABALHO E MELHORANDO O DESEMPERNHO DO SISTEMA
+
+Vantagens - Economia de tempo , diminuição na carga de criação de comandos select , Velocidade de acesso , devido as views estarem pré armazenadas , ocultação da complexidade , o usuário não necessita saber dos campos nem das seleções
+
+
+
+INDICE (INDEX)
+
+Porlbmea do Table Sacan: tempo de verificação tende a ser muito grande.
+
+
+A utilização dos índices e opcional para seleção de dados  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

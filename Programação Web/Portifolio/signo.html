@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu Signo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="card text-center">
+      <div class="card-header">
+        <h1>Seu Signo</h1>
+      </div>
+      <div class="card-body">
+        <h2 id="sign-name"></h2>
+        <p id="sign-description"></p>
+        <a href="index.html" class="btn btn-secondary">Voltar</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const birthdate = new Date(params.get('birthdate'));
+    const signs = [
+      { name: "Áries", start: "03-21", end: "04-19", description: "Corajoso, determinado e cheio de energia." },
+      { name: "Touro", start: "04-20", end: "05-20", description: "Prático, confiável e muito determinado." },
+      { name: "Gêmeos", start: "05-21", end: "06-20", description: "Comunicativo, versátil e curioso." },
+      { name: "Câncer", start: "06-21", end: "07-22", description: "Sensível, carinhoso e muito protetor." },
+      { name: "Leão", start: "07-23", end: "08-22", description: "Confiante, criativo e cheio de energia." },
+      { name: "Virgem", start: "08-23", end: "09-22", description: "Prático, perfeccionista e analítico." },
+      { name: "Libra", start: "09-23", end: "10-22", description: "Diplomático, equilibrado e elegante." },
+      { name: "Escorpião", start: "10-23", end: "11-21", description: "Intenso, apaixonado e muito estratégico." },
+      { name: "Sagitário", start: "11-22", end: "12-21", description: "Aventureiro, otimista e muito sincero." },
+      { name: "Capricórnio", start: "12-22", end: "01-19", description: "Ambicioso, disciplinado e trabalhador." },
+      { name: "Aquário", start: "01-20", end: "02-18", description: "Original, humanitário e muito criativo." },
+      { name: "Peixes", start: "02-19", end: "03-20", description: "Sensível, intuitivo e sonhador." },
+    ];
+
+    function findSign(birthdate) {
+      const monthDay = birthdate.toISOString().slice(5, 10);
+      return signs.find(sign => monthDay >= sign.start && monthDay <= sign.end) || 
+             signs.find(sign => monthDay >= "12-22" || monthDay <= "01-19");
+    }
+
+    const userSign = findSign(birthdate);
+    document.getElementById("sign-name").textContent = userSign.name;
+    document.getElementById("sign-description").textContent = userSign.description;
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

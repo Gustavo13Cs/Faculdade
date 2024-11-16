@@ -1,0 +1,39 @@
+CONTROLE TRANSACIONAL 
+
+
+Comando principal comando e o COMMIT 
+
+
+AUTOCOMMIT - ele atualiza automático  
+
+Funciona com os comando DDL , mas não com comandos DML 
+
+COMANDO ROOLBACK
+
+Sintaxe para criar pontos de restauralçao - SAVEPOINT [NOMEDOPRODUTO]
+
+PARA UTILIZAR ESSE PONTO 
+
+RollBack to saevePOINT [NomedoProduto]
+
+START TRANSACTION - QUALQUER ATUALIZAÇÃO NÃO E SALVO , AH NÃO SER QUE VOCE DE UM COMMIT 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+As funções são muito utilizadas pra calcular dentro do banco de dados mesmo 
+
+DELIMITER // pra começar uma função e DELIMITER ; pra finalizar , assim fica mais organizado , o sistema fica sabendo que tudo que ta ali dentro , faz parte daquela linha de código 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Controle de Acesso - DCL
+
+GRANT e o comando que concede privilegio qualquer usuário 
+
+REVOKE e o comando que revoga um privilegio qualquer usuário 
+
+
+
+
+
