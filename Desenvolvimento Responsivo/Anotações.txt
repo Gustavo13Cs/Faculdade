@@ -1,0 +1,76 @@
+Com o uso do Css o site acaba sendo otimizado e mais organizado , acabando em o projeto ficar mto mais limpo.
+
+O CSS é uma linguagem fundamental para o design da web, mas possui algumas desvantagens, como:
+
+Complexidade em Projetos Grandes – À medida que um site cresce, o código CSS pode se tornar difícil de gerenciar, especialmente sem uma estrutura bem definida.
+Especificidade e Herança – O sistema de cascata e especificidade do CSS pode causar conflitos entre estilos, dificultando a manutenção do código.
+Falta de Encapsulamento – Diferente de linguagens como JavaScript, o CSS puro não tem escopo modular, o que pode levar a efeitos indesejados quando estilos afetam elementos que não deveriam.
+Dependência do Navegador – Nem todos os navegadores interpretam o CSS da mesma forma, exigindo ajustes e hacks para garantir compatibilidade.
+Dificuldade com Layouts Complexos – Antes do Flexbox e do Grid, criar layouts responsivos e complexos exigia hacks e muitas linhas de código. Ainda assim, alguns desafios persistem.
+Pouca Interatividade – O CSS é uma linguagem de estilo, não de programação, o que limita sua capacidade de interatividade sem o auxílio do JavaScript.
+Desempenho em Projetos Mal Otimizados – Um CSS muito grande pode aumentar o tempo de carregamento da página, principalmente se houver muitas regras desnecessárias ou seletores muito genéricos.
+
+
+Folha de estilo - Uma folha de estilo é um arquivo ou um bloco de código que define a aparência e o layout de um documento, geralmente um site. No contexto do CSS (Cascading Style Sheets), uma folha de estilo contém regras que controlam cores, fontes, espaçamentos, tamanhos e posicionamentos dos elementos em uma página da web.
+
+
+1. Seletores Básicos ()
+
+Seletor de Tipo (Tag) – Aplica estilos a todas as ocorrências de uma tag.
+Seletor de Classe (.) – Aplica estilos a elementos com uma classe específica.
+Seletor de ID (#) – Aplica estilos a um único elemento com um ID específico.
+
+
+2. Seletores Combinadores
+
+Seletor Descendente ( ) – Estiliza elementos dentro de um outro elemento específico.
+Seletor Filho (>) – Aplica estilos somente a elementos filhos diretos.
+
+
+3. Seletores de Atributos
+
+[atributo] – Seleciona elementos que possuem um determinado atributo.
+
+
+4. Pseudo-classes
+
+São usados para estilizar elementos em estados específicos.
+
+:hover – Quando o usuário passa o mouse sobre um elemento
+:focus – Quando um campo recebe foco.
+
+
+Vantagens de Fazer Agrupamentos no CSS
+
+ Redução de Código e Maior Eficiência
+Evita a repetição de código, tornando a folha de estilos mais enxuta e fácil de ler.
+
+Redução de Erros
+Menos repetição significa menos chances de inconsistências e bugs no design do site.
+
+Facilidade na Manutenção
+Se precisar alterar um estilo, basta modificar um único seletor agrupado em vez de atualizar várias regras separadas.
+
+Melhor Organização e Legibilidade
+Agrupar seletores melhora a estrutura do código, tornando-o mais organizado e intuitivo. Isso facilita a compreensão tanto para você quanto para outros desenvolvedores que forem dar manutenção no código.
+
+ Otimização do Desempenho
+Menos código CSS significa um carregamento mais rápido da página, pois o navegador processa menos regras.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
