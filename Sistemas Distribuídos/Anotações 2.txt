@@ -1,0 +1,90 @@
+🔍 O que é Granularidade?
+Granularidade se refere ao tamanho das tarefas (ou unidades de trabalho) que são divididas e executadas paralelamente em um sistema.
+
+🧱 Tipos de Granularidade:
+📌 Granularidade Grossa (Grossa ou de alto nível)
+As tarefas são grandes e independentes, com pouca comunicação entre elas.
+A troca de dados entre os processadores (ou nós) é mínima.
+Exemplo: Processar vários vídeos diferentes em paralelo. Cada processador pega um vídeo e trabalha sozinho.
+
+✅ Vantagem: Menor custo de comunicação.
+⚠️ Desvantagem: Pode haver desperdício de recursos se uma tarefa for muito mais pesada que outra.
+
+📌 Granularidade Fina (Fina ou de baixo nível)
+As tarefas são bem pequenas e dependentes umas das outras, exigindo frequente troca de dados.
+Exemplo: Dividir um único vídeo em milhares de pedaços para que cada parte seja processada por um núcleo.
+
+✅ Vantagem: Melhor aproveitamento dos processadores.
+⚠️ Desvantagem: Comunicação entre tarefas pode ser lenta e causar gargalos.
+
+
+🍽️ Analogia da Cozinha - Granularidade
+Imagine que você tem um restaurante e vários chefs na cozinha. Sua missão é preparar 10 pratos de comida.
+
+Granularidade grossa = cada chef faz um prato inteiro → menos comunicação, mais independência.
+Granularidade fina = cada chef faz um pedacinho do prato → mais comunicação, mais sincronização.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📈 O que é Escalabilidade?
+Escalabilidade é a capacidade de um sistema crescer ou aumentar seu desempenho à medida que a demanda aumenta — sem perder eficiência.
+
+👉 Em outras palavras:
+
+"O sistema consegue aguentar mais carga (usuários, dados, tarefas) sem travar?"
+
+🔸 Tipos de Escalabilidade:
+✅ 1. Escalabilidade Vertical (scale-up)
+Aumenta o poder de um único servidor.
+Exemplo: adicionar mais memória, CPU ou HD a um servidor.
+📌 Simples, mas tem um limite físico.
+
+✅ 2. Escalabilidade Horizontal (scale-out)
+Adiciona mais servidores ao sistema (distribui a carga entre eles).
+Exemplo: ao invés de 1 servidor potente, usa-se 10 servidores menores trabalhando juntos.
+📌 Ideal para sistemas distribuídos e em nuvem. Muito mais escalável a longo prazo.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🧩 O que é Heterogeneidade?
+Heterogeneidade significa que, em um sistema, os componentes são diferentes entre si — seja em termos de hardware, software, sistema operacional, linguagem de programação, arquitetura, etc.
+
+Ou seja, mesmo sendo um único sistema distribuído, ele pode ser composto por:
+
+Servidores Windows e Linux
+Máquinas com processadores diferentes
+Aplicações escritas em Java, Python, Node.js
+Dispositivos móveis, desktops, sensores IoT, etc
+
+Exemplo prático:
+Imagine um app de delivery (tipo iFood):
+
+O banco de dados roda num servidor Linux.
+A interface web está num servidor com Node.js.
+A API usa Java.
+O aplicativo roda em Android (Java/Kotlin) e iOS (Swift).
+Tudo isso forma um sistema heterogêneo, mas integrado.
+
+✅ Vantagens da Heterogeneidade:
+Flexibilidade: cada parte do sistema pode usar a tecnologia mais adequada.
+Reaproveitamento de recursos já existentes.
+Facilidade em integrar sistemas antigos com novos.
+
+⚠️ Desafios da Heterogeneidade:
+Comunicação entre plataformas diferentes.
+Compatibilidade de dados e protocolos.
+Manutenção mais complexa.
+📊 Resumindo:
+
+Termo	Significado
+Heterogêneo	Sistema com componentes diferentes (hardware, software, linguagem etc).
+Homogêneo	Sistema com componentes iguais ou muito semelhantes.
+
+
+
+
+
+
+
+

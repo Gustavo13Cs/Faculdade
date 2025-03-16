@@ -1,0 +1,118 @@
+Sistemas distribuídos são um tipo de sistema de computação onde vários computadores independentes (ou nós) trabalham juntos de forma coordenada para parecer, aos usuários, como um único sistema.
+
+Em outras palavras:
+É um conjunto de computadores interconectados que compartilham recursos, dados e tarefas, colaborando para executar processos como se fossem um só. 
+
+Exemplos comuns de sistemas distribuídos:
+Serviços de nuvem (como Google Drive, Dropbox, AWS)
+Redes sociais (Facebook, Instagram)
+Sistemas bancários
+Jogos online multiplayer
+Sistemas de busca (Google, Bing)
+
+Exemplo prático:
+Imagine um aplicativo de streaming (como Netflix):
+
+O vídeo que você assiste pode vir de um servidor diferente do que entrega o site.
+Outro servidor cuida das recomendações.
+Outro controla o login. Todos esses servidores fazem parte de um sistema distribuído.
+
+
+1. Arquitetura Cliente-Servidor
+Mais comum e tradicional.
+O cliente faz solicitações (ex: abrir uma página), e o servidor responde com os dados ou serviços.
+
+📌 Vantagem: Fácil de implementar.
+⚠️ Desvantagem: Se o servidor cair, tudo para.
+
+2. Arquitetura Peer-to-Peer (P2P)
+Todos os nós (computadores) são iguais — podem ser clientes e servidores ao mesmo tempo.
+Cada nó compartilha dados diretamente com os outros.
+Exemplo: Torrent, Skype antigo.
+
+📌 Vantagem: Alta distribuição e escalabilidade.
+⚠️ Desvantagem: Difícil controle centralizado.
+
+
+ 3. Arquitetura Multicamadas (N-tier)
+Divide o sistema em camadas, cada uma com uma função específica.
+Exemplo comum:
+
+Camada de Apresentação (interface)
+Camada de Lógica de Negócio
+Camada de Dados (banco de dados)
+📌 Vantagem: Separação clara de responsabilidades, facilita manutenção.
+⚠️ Desvantagem: Pode ser mais complexa de configurar.
+
+
+4. Arquitetura baseada em Serviços (SOA)
+O sistema é dividido em vários serviços independentes, que se comunicam por meio de uma rede (geralmente com protocolos como SOAP ou REST).
+Exemplo: Sistema bancário com serviços separados para contas, transferências, cartões etc.
+
+📌 Vantagem: Flexibilidade e reuso de serviços.
+⚠️ Desvantagem: Pode ter sobrecarga na comunicação.
+
+5. Arquitetura de Microsserviços
+Evolução do SOA, mas os serviços são menores, mais independentes e leves.
+Cada microsserviço executa uma função bem específica.
+Exemplo: Netflix usa muito essa arquitetura.
+
+📌 Vantagem: Escalabilidade, manutenção e atualização independentes.
+⚠️ Desvantagem: Requer boa organização e orquestração (ex: usar Docker, Kubernetes etc).
+
+
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+💡 1. Sistemas Centralizados
+Todo o processamento e armazenamento de dados ocorrem em um único computador (servidor central).
+Os usuários acessam esse servidor para realizar suas tarefas, mas não há distribuição real de carga entre vários computadores.
+Exemplo: Um sistema antigo de uma empresa onde tudo roda em um servidor central e os terminais (clientes) apenas acessam.
+
+📌 Vantagens:
+
+Mais simples de gerenciar.
+Menor complexidade de rede.
+⚠️ Desvantagens:
+
+Ponto único de falha: se o servidor cair, tudo para.
+Escalabilidade limitada.
+
+
+⚙️ 2. Sistemas Paralelos
+São sistemas que possuem múltiplos processadores trabalhando juntos ao mesmo tempo (normalmente dentro do mesmo computador ou cluster).
+A ideia é dividir uma tarefa em partes menores que são executadas simultaneamente para ganhar desempenho.
+Exemplo: Supercomputadores, processamento gráfico (GPU), cálculos científicos.
+
+📌 Vantagens:
+
+Alta performance (processamento mais rápido).
+Ideal para tarefas pesadas, como simulações, IA, engenharia, etc.
+⚠️ Desvantagens:
+
+Mais difícil de programar (é necessário pensar na paralelização).
+Pode haver gargalos se os processadores precisarem trocar muita informação.
+
+📊 Comparando tudo:
+
+Tipo de Sistema	Característica Principal	Exemplo
+Centralizado	Tudo em um único servidor	Sistema de uma empresa local
+Paralelo	Vários processadores executando em paralelo	Supercomputador, GPU
+Distribuído	Vários computadores independentes colaborando	Nuvem, Netflix, Google, etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
