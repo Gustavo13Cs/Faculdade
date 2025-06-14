@@ -1,0 +1,46 @@
+1. Activities (Atividades)
+São as telas do app. Cada Activity representa uma interface com o usuário. Exemplo: tela de login, tela principal, etc.
+
+Exemplo de código:
+
+java
+Copiar
+Editar
+public class MainActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
+
+2. Services (Serviços)
+Executam tarefas em background (sem interface). Tipo ouvir música, baixar arquivos, processar dados…
+
+Exemplo: um serviço que sincroniza dados com o servidor.
+
+3. Broadcast Receivers (Receptores de Transmissão)
+Reagem a eventos globais do sistema ou do app (tipo "o dispositivo foi carregado", "a internet voltou", "recebeu uma SMS").
+
+Exemplo: um app que detecta quando o Wi-Fi foi ligado.
+
+4. Content Providers (Provedores de Conteúdo)
+Compartilham dados entre apps. Útil pra acessar contatos, fotos, etc.
+
+Exemplo: teu app acessando os contatos salvos do celular.
+
+5. Fragments (Fragmentos)
+Subcomponentes de uma Activity. Usado pra modularizar a interface em partes reutilizáveis.
+
+Exemplo: numa tela de tablet, ter um menu à esquerda e o conteúdo à direita.
+
+Extras que também são importantes:
+Intents: mensageiros entre componentes (tipo “Ei, abre essa Activity!” ou “Dispara esse Broadcast!”).
+
+ViewModel + LiveData: (mais modernos, com Jetpack) usados pra separar lógica da interface.
+
+Room / SQLite: banco de dados local.
+
+Jetpack Compose (se tu estiver no hype atual): nova forma declarativa de construir UI no Android.
+
+
