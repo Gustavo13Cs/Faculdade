@@ -1,0 +1,129 @@
+Arquitetura → é a visão lógica: como o computador é planejado para funcionar e quais recursos ele oferece (instruções, registradores, modos de endereçamento, etc.).
+
+Organização → é a visão física: como esses recursos são implementados de fato no hardware (circuitos, sinais, barramentos, memória física).
+
+
+Pra ficar claro:
+
+Arquitetura é como a “planta” de uma casa. Organização é a “obra” que constrói essa casa na prática.
+
+
+Vamos converter o número 13 do decimal para o binário (base 2).
+
+O método das divisões sucessivas funciona assim:
+
+Divida o número por 2.
+
+Anote o resto (0 ou 1).
+
+Pegue o quociente e divida de novo por 2, até chegar a 0.
+
+O resultado em binário é a sequência de restos lida de baixo para cima.
+
+Vamos passo a passo:
+
+13 ÷ 2 → quociente = 6, resto = 1
+
+6 ÷ 2 → quociente = 3, resto = 0
+
+3 ÷ 2 → quociente = 1, resto = 1
+
+1 ÷ 2 → quociente = 0, resto = 1 (paramos aqui)
+
+Agora lemos de baixo para cima: 1101₂.
+Logo:
+
+13
+10
+=
+1101
+2
+13 
+10
+​
+ =1101 
+2
+​
+25 
+
+12 - 1
+6 - 1
+3 - 1
+1 - 1
+
+Número: 25
+
+25 ÷ 2 → quociente = 12, resto = 1
+
+12 ÷ 2 → quociente = 6, resto = 0
+
+6 ÷ 2 → quociente = 3, resto = 0
+
+3 ÷ 2 → quociente = 1, resto = 1
+
+1 ÷ 2 → quociente = 0, resto = 1 (paramos)
+
+Agora, lendo os restos de baixo para cima:
+1 1 0 0 1 → 11001₂
+
+Então:
+
+25
+10
+=
+11001
+2
+25 
+10
+​
+ =11001 
+2
+
+Hexadecimal (base 16) usa 16 símbolos:
+0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+A = 10
+
+B = 11
+
+C = 12
+
+D = 13
+
+E = 14
+
+F = 15
+
+O processo é bem parecido com o do binário, mas dividindo por 16 em vez de 2.
+
+Vamos converter 356 do decimal para hexadecimal:
+
+356 ÷ 16 → quociente = 22, resto = 4
+
+22 ÷ 16 → quociente = 1, resto = 6
+
+1 ÷ 16 → quociente = 0, resto = 1 (paramos)
+
+Agora, lendo de baixo para cima:
+1 6 4 → 164₁₆
+
+Logo:
+
+356
+10
+=
+164
+16
+356 
+10
+​
+ =164 
+16
+​
+
+​
+
+
+
+
+
