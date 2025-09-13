@@ -1,0 +1,244 @@
+Fluxo do Usuário e Interações
+
+📌 Fluxo do Usuário (User Flow)
+
+É o mapa de etapas que o usuário percorre dentro de um sistema até concluir uma tarefa.
+
+Como se monta:
+
+Objetivo final: qual ação ele quer completar? (ex.: “finalizar compra”).
+
+Pontos de entrada: onde ele começa? (home, link direto, notificação).
+
+Passos intermediários: telas, decisões, formulários.
+
+Pontos de fricção: onde pode desistir ou errar.
+
+Saída: sucesso (ex.: “pedido confirmado”) ou erro.
+
+🔹 Exemplo prático (e-commerce):
+Home → busca de produto → detalhe do produto → adicionar ao carrinho → checkout → pagamento → confirmação.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🎛️ Interações
+
+São os micro-momentos em que o usuário “conversa” com o sistema.
+Cada interação precisa dar pistas claras (feedback) e sensação de controle.
+
+Tipos comuns:
+
+Clicar / tocar → abrir link, ativar botão.
+
+Arrastar / deslizar → listas, galeria de imagens.
+
+Digitar → formulários, busca.
+
+Voz / gesto → assistentes, mobile avançado.
+
+Boas práticas:
+
+Sempre dar feedback imediato (animação, loading, aviso).
+
+Prevenção de erros: inputs formatados (CEP, telefone).
+
+Controle do usuário: botão “voltar”, desfazer.
+
+Consistência: mesma ação = mesmo resultado (não mudar regras no meio do jogo).
+
+🔹 Exemplo prático:
+Clicou em “comprar”? → botão mostra “processando…” → se der certo: “✔ Pedido realizado”; se erro: mensagem clara e como resolver.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🚦 Relação entre os dois
+
+Fluxo do usuário = caminho macro (roteiro da jornada).
+
+Interações = micro-momentos de contato em cada etapa.
+
+Um fluxo pode estar ótimo no papel, mas se as interações forem mal feitas (sem feedback, lentas, confusas), a experiência quebra.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📌 O que é Metodologia Ágil?
+
+É um jeito de organizar o trabalho em ciclos curtos (sprints), com foco em entregar valor rápido, colher feedback e ajustar continuamente.
+No design de interação, isso significa: prototipar → testar → ajustar → repetir, sempre junto com o time de dev.
+
+(Reuniões rápidas antes do trabalho , diariamente , 5 10 min todos os dias )
+
+⚡ Princípios aplicados ao Design
+
+Iterações curtas → nada de esperar meses pra validar. Testa a cada sprint.
+
+Colaboração → designers, devs e stakeholders trabalham juntos desde o início.
+
+Feedback contínuo → usuário valida o que foi entregue, não só o gerente.
+
+Flexibilidade → requisitos podem mudar no meio do caminho.
+
+Documentação mínima → foca no protótipo, fluxo ou wireframe, não em relatórios gigantes.
+
+💡 Exemplo prático (App de Delivery)
+
+Sprint 1: protótipo de login → 5 usuários testam → ajuste rápido → dev implementa versão mínima.
+
+Sprint 2: checkout → feedback mostrou que usuários não viam taxa de entrega → design muda layout → dev aplica.
+
+Resultado: em 2 semanas já existe algo funcional e validado.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📌 O que é a análise de requisitos?
+
+É o processo de levantar, organizar e validar tudo que o sistema precisa oferecer para o usuário.
+No caso de interfaces, isso vai além de funções técnicas: envolve contexto de uso, perfil do usuário, acessibilidade e experiência esperada.
+
+⚡ Tipos de requisitos
+
+Requisitos Funcionais (RF)
+→ O que o sistema deve fazer.
+
+Exemplo: “O sistema deve permitir que o usuário cadastre clientes.”
+
+Requisitos Não Funcionais (RNF)
+→ Como o sistema deve ser.
+
+Exemplo: “A interface deve carregar em até 2 segundos.”
+
+Inclui: desempenho, acessibilidade, usabilidade, compatibilidade.
+
+Requisitos de Usuário (RU)
+→ Expectativas e objetivos do usuário.
+
+Exemplo: “O usuário deve conseguir pagar um boleto sem precisar de manual de instruções.”
+
+## 🎯 Etapas na análise de requisitos (voltada para interfaces)
+
+1. **Levantamento**
+
+   * Entrevistas com usuários.
+   * Observação de uso (shadowing).
+   * Questionários.
+   * Análise de concorrentes.
+
+2. **Modelagem**
+
+   * Criar personas.
+   * Mapas de jornada do usuário.
+   * User stories (“Como \[persona], quero \[ação] para \[benefício]”).
+
+3. **Priorização**
+
+   * MoSCoW (Must have, Should have, Could have, Won’t have).
+   * Matriz impacto × esforço.
+
+4. **Validação**
+
+   * Prototipagem (wireframes, mockups).
+   * Testes com usuários.
+   * Revisões com stakeholders.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📌 Boas práticas na análise de requisitos para interfaces
+
+1. **Falar a língua do usuário, não do dev**
+
+   * Evite jargão técnico.
+   * Se o usuário diz “cadastrar cliente”, não escreva “persistir dados na tabela Pessoa\_Física”.
+
+2. **Priorizar a experiência, não só a função**
+
+   * Não basta dizer “precisa ter login”.
+   * Pergunte: “o login deve ser simples? Pode ser social (Google/Facebook)? Deve ter recuperação de senha intuitiva?”.
+
+3. **Envolver o usuário desde o início**
+
+   * Não espere o protótipo final.
+   * Traga o usuário pra validar requisitos ainda em rascunho.
+
+4. **Equilibrar negócio × técnica × usabilidade**
+
+   * O que o cliente quer (negócio), o que é possível (técnica) e o que é simples (usabilidade).
+   * Se uma dessas for ignorada → problema na certa.
+
+5. **Transformar requisitos em cenários reais**
+
+   * Use **user stories**: “Como \[persona], quero \[ação] para \[benefício]”.
+   * Exemplo: “Como atendente, quero registrar entrada de veículo em menos de 10s para agilizar a fila.”
+
+6. **Definir critérios de aceitação claros**
+
+   * Quando um requisito está realmente pronto?
+   * Exemplo: “O botão de pagamento só é aceito se processar a transação em menos de 5 segundos em 90% dos casos.”
+
+7. **Testar cedo (prototipagem)**
+
+   * Melhor descobrir problema em um wireframe do que em um sistema pronto.
+
+8. **Não esquecer acessibilidade**
+
+   * Inclua desde o começo: contraste, teclado, leitores de tela, tamanhos de botão.
+   * Se deixar pro fim, vira “remendo caro”.
+
+9. **Documentar de forma leve e visual**
+
+   * Use fluxogramas, mapas mentais, diagramas.
+   * Texto gigante ninguém lê, mas um quadro kanban ou user flow todo mundo entende.
+
+10. **Validar sempre com métricas**
+
+* Pergunte: “como saberei que esse requisito foi atendido?”
+* Use métricas como tempo de tarefa, taxa de erro, satisfação.
+
+📌 Resumindo:
+Uma boa análise de requisitos para interface é **colaborativa, centrada no usuário, validada cedo e escrita de forma simples**.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+📌 Especificação de Interfaces
+
+É o documento (ou conjunto de artefatos) que descreve como a interface vai funcionar, antes mesmo do código.
+Serve como ponte entre:
+
+ o que o usuário precisa,
+
+ o que o negócio exige,
+
+ e o que os devs vão implementar.
+
+ O que costuma conter:
+
+Requisitos de interação → ex.: “O usuário deve conseguir cadastrar um cliente em 3 passos.”
+
+Fluxos de navegação (User Flow) → mostra os caminhos possíveis.
+
+Wireframes (rascunhos de tela) → organização dos elementos.
+
+Protótipos interativos (alta fidelidade) → mais próximos do produto final.
+
+Guia de estilo → cores, tipografia, ícones, espaçamentos.
+
+Regras de comportamento → ex.: “Ao clicar em ‘Pagar’, exibir spinner de carregamento até a resposta do servidor.”
+
+📌 Por que é importante?
+Evita mal-entendido: todos falam a mesma língua (designer, dev, gerente, cliente).
+
+⚡ Projeto de Interfaces
+
+É a parte criativa e técnica de transformar requisitos em uma interface funcional e usável.
+
+Etapas principais:
+
+. Análise de requisitos → o que precisa estar na interface.
+
+. Arquitetura da informação → como organizar conteúdo e funções.
+
+. Design de interação → como o usuário vai interagir (botões, fluxos, feedbacks).
+
+. Design visual → aparência, cores, tipografia, estilo.
+
+. Prototipagem → wireframes → protótipos navegáveis.
+
+. Teste e avaliação → validar com usuários antes de codar.
+
+
