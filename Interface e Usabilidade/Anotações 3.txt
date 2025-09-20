@@ -1,0 +1,59 @@
+# 📌 Projeto de Interface e Interações
+
+## 1. O que é Projeto de Interface?
+
+É o processo de **planejar como o usuário vai ver e navegar** no sistema.
+
+* Não é só estética, é **funcionalidade + clareza**.
+* Exemplo: decidir se o menu vai ser lateral, em abas ou hamburguer.
+
+⚡ **Pontos-chave**:
+
+* Arquitetura da informação (organizar conteúdo e funções).
+* Layout visual (hierarquia, cores, tipografia, ícones).
+* Padrões de consistência (botões iguais fazem a mesma coisa).
+* Feedback visual (carregando, erro, sucesso).
+
+## 2. O que são Interações?
+
+São os **momentos de contato do usuário com a interface**.
+
+* Clique, arrastar, digitar, deslizar, comando de voz.
+* Cada interação precisa ser **intuitiva e ter resposta imediata**.
+
+⚡ **Boas práticas**:
+
+* Feedback imediato (botão “clicou” → animação ou mensagem).
+* Prevenção de erros (formulários com máscara de CPF/CEP).
+* Controle do usuário (voltar, desfazer, cancelar).
+* Acessibilidade (atalhos de teclado, botões grandes, contraste).
+
+---
+
+## 3. Ligação entre Interface e Interações
+
+* A **interface** é o palco.
+* As **interações** são a peça acontecendo.
+
+Se o palco tá bagunçado (interface ruim), o ator tropeça (usuário erra).
+Se a peça não tem resposta (sem feedback), o público desanima (usuário desiste).
+
+---
+
+## 4. Exemplo prático (teu sistema de estacionamento 🚗)
+
+* **Interface**: dashboard com vagas ocupadas e botão “Registrar Entrada”.
+* **Interações**:
+
+  * Atendente clica → sistema gera ticket em 2s.
+  * Se erro: mensagem “Impressora sem papel” com instrução.
+  * Usuário pode cancelar se clicou errado.
+
+---
+
+📌 **Resumo rápido**:
+
+* Projeto de interface → *como as coisas aparecem*.
+* Projeto de interações → *como as coisas respondem*.
+* Juntos, garantem **usabilidade real**.
+
