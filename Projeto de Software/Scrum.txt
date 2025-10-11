@@ -1,0 +1,44 @@
+🚀 SCRUM — Metodologia Ágil
+💡 O que é?
+
+O Scrum é um framework ágil de gerenciamento de projetos, usado pra entregar software funcional em ciclos curtos, com adaptação constante e colaboração contínua.
+
+É tipo um time de corrida de revezamento: cada um tem seu papel, o bastão (as tarefas) vai passando, e o objetivo é cruzar a linha com eficiência e ritmo.
+
+🧩 1. Papéis (Quem faz o quê)
+Papel	Função acadêmica	Exemplo prático
+Product Owner (PO)	Representa o cliente e define o que o produto precisa ter.	Decide que o sistema de estacionamento precisa de “Dashboard com ocupação de vagas”.
+Scrum Master	Garante que o time siga as práticas do Scrum. Remove impedimentos.	Resolve quando o dev não consegue subir o banco no Render.
+Time de Desenvolvimento	Profissionais que criam o produto.	Programadores, designers e testadores que codam o sistema.
+
+🧠 2. Princípios do Scrum
+
+Transparência: todos sabem o que está sendo feito.
+
+Inspeção: acompanhar constantemente o progresso.
+
+Adaptação: ajustar o rumo quando algo muda.
+
+Valor contínuo: cada Sprint precisa entregar algo útil.
+
+💼 Na prática 
+👉 Semana 1 (Sprint 1):
+
+Objetivo: criar login e tela de registro.
+
+Tarefas: modelar banco, implementar autenticação, testar login.
+
+👉 Semana 2 (Sprint 2):
+
+Objetivo: adicionar controle de vagas e emissão de tickets.
+
+Review: mostrar funcionamento pro PO.
+
+Retrospective: “precisamos melhorar a comunicação no GitHub”.
+
+
+🧾 Resumo rápido pra prova
+
+Scrum é um framework ágil e iterativo, com papéis definidos, eventos curtos e regulares, e entregas incrementais de valor.
+O foco está na colaboração, adaptação e melhoria contínua.
+

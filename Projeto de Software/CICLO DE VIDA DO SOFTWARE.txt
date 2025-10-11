@@ -1,0 +1,29 @@
+CICLO DE VIDA DO SOFTWARE
+│
+├── 1. Planejamento
+│     ├─ Define escopo, custos e prazos
+│     └─ Exemplo: decidir o que o sistema vai fazer
+│
+├── 2. Análise de Requisitos
+│     ├─ Levanta necessidades do cliente
+│     └─ Exemplo: login, controle de vagas, relatórios
+│
+├── 3. Projeto (Design)
+│     ├─ Define arquitetura, banco e interfaces
+│     └─ Exemplo: MVC, telas, modelo MySQL
+│
+├── 4. Implementação
+│     ├─ Codificação do sistema
+│     └─ Exemplo: Node.js + React
+│
+├── 5. Testes
+│     ├─ Verifica erros e valida funcionalidades
+│     └─ Exemplo: testar login, tickets, e-mails
+│
+├── 6. Implantação
+│     ├─ Publicar e liberar para uso
+│     └─ Exemplo: deploy no Render
+│
+└── 7. Manutenção
+      ├─ Corrigir, atualizar e otimizar
+      └─ Exemplo: dashboard, novos relatórios

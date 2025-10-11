@@ -1,0 +1,92 @@
+🧭 1. O que é Projeto de Software?
+
+É o processo de definir a arquitetura, os componentes, as interfaces e outros elementos de um sistema, com base nos requisitos levantados.
+Ou seja, é onde transformamos o que o cliente quer em como o sistema vai funcionar.
+
+💬 “O projeto é o mapa; o código é o caminho.”
+
+🧱 2. Objetivos principais
+
+Traduzir requisitos em estrutura técnica — transformar ideias em soluções viáveis.
+
+Garantir manutenibilidade e escalabilidade — pensar no futuro, não só no agora.
+
+Minimizar riscos — evitar retrabalho e falhas no desenvolvimento.
+
+Promover qualidade e consistência — cada parte do software conversa com as outras de forma harmoniosa.
+
+⚙️ 3. Etapas do Projeto de Software
+
+Geralmente segue o fluxo abaixo:
+
+Etapa	Descrição
+Análise de Requisitos	Entender o problema e o que precisa ser resolvido.
+Projeto de Arquitetura	Definir a estrutura geral do sistema (camadas, módulos, componentes).
+Projeto de Interface	Criar wireframes, protótipos e fluxo de telas.
+Projeto de Dados	Modelar bancos de dados e relacionamentos.
+Projeto de Componentes	Detalhar como cada parte será implementada (classes, APIs, módulos).
+
+🧩 4. Tipos de Projeto
+Tipo	Foco
+Projeto Arquitetural	Estrutura macro do sistema (ex: MVC, microserviços).
+Projeto de Interface	Experiência e interação do usuário.
+Projeto de Dados	Banco de dados, tabelas, integridade e relacionamentos.
+Projeto de Componentes	Implementação e comportamento dos módulos.
+
+🧠 5. Boas práticas no Projeto de Software
+
+Simplicidade é poder. Evite complexidade desnecessária.
+
+Documente sempre. Código sem contexto é ruído.
+
+Pense em modularidade. Cada parte deve fazer bem uma única coisa.
+
+Preveja mudanças. O sistema deve ser flexível.
+
+Padrões de projeto (Design Patterns). Use para resolver problemas recorrentes.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+⚙️ Ciclo de Vida do Projeto de Software
+💡 O que é?
+
+O Ciclo de Vida do Software representa as fases pelas quais um sistema passa desde a ideia até o descarte (ou substituição).
+Em outras palavras: é o passo a passo da vida de um sistema — desde o “e se a gente fizesse um app pra isso?” até o “vamos desligar o servidor, o novo sistema já entrou no ar”.
+
+🔄 As principais fases do ciclo de vida
+Etapa	O que acontece	Exemplo prático (estacionamento)
+1. Planejamento	Define o escopo, objetivos, recursos e cronograma.	Decidir que o sistema vai gerenciar vagas, controlar entrada/saída e gerar relatórios.
+2. Análise de Requisitos	Levantamento e documentação das necessidades do cliente.	Descobrir que precisa de login, cadastro de veículos, cálculo de tarifa e e-mails automáticos.
+3. Projeto (Design)	Criação da arquitetura, interfaces e modelo de dados.	Definir o banco MySQL, estrutura MVC e telas (Login, Home, Dashboard).
+4. Implementação (Codificação)	Hora de transformar o projeto em código.	Escrever o backend em Node/Express e o frontend em React.
+5. Testes	Verificar se o sistema funciona corretamente e sem bugs.	Testar login, cadastro, pagamentos, envio de e-mail etc.
+6. Implantação (Deploy)	Colocar o sistema em produção.	Subir no Render, conectar o banco e liberar pro uso.
+7. Manutenção	Corrigir erros, melhorar e atualizar o sistema.	Atualizar relatórios, otimizar desempenho, corrigir bugs.
+
+
+🧩 Exemplo aplicado — “Sistema de Estacionamento”
+
+👉 Primeiro ciclo (mínimo viável)
+
+Planejar: sistema só pra controle de vagas.
+
+Projetar: banco simples com tabela de veículos e vagas.
+
+Implementar: CRUD básico.
+
+Testar e implantar.
+
+👉 Segundo ciclo (incremento)
+
+Adicionar pagamentos, relatórios e envio de e-mail.
+
+Testar novamente e subir a nova versão.
+
+👉 Terceiro ciclo (manutenção)
+
+Ajustar bugs, adicionar dashboard de indicadores, otimizar consultas SQL.
+
+Esse é o ciclo girando — cada volta melhora o sistema.
+
+O ciclo de vida do software é o “ritmo da evolução”.
+Ele mostra que software bom não nasce pronto, ele amadurece — planejando, testando, corrigindo e melhorando.
