@@ -1,0 +1,127 @@
+## Aula 1: Gestão e Políticas de Segurança
+
+A segurança da informação vai além da tecnologia, abrangendo aspectos normativos e a **cultura de segurança**. Os riscos não tecnológicos incluem aspectos **físicos** (como data center), **humanos** (falhas humanas, administradores, *crackers*) e **naturais** (enchentes).
+
+### Sistema de Gestão de Segurança da Informação (SGSI)
+
+O SGSI é fundamental para o fortalecimento da cultura de segurança. Ele estabelece, implementa, mantém e aprimora continuamente a segurança. A empresa pode certificar seu SGSI de acordo com a norma **ABNT NBR ISO/IEC 27001**.
+
+O SGSI deve fazer parte e estar integrado aos processos e à estrutura de administração da organização, considerando a segurança desde o projeto dos sistemas. O processo de melhoria contínua segue o ciclo **PDCA (Plan, Do, Check, Act)**.
+
+### Política de Segurança da Informação (PSI)
+
+A PSI é um **documento formal** que define diretrizes, regras e procedimentos que a organização deve seguir para proteger informações e ativos contra ameaças e riscos. Seu objetivo é garantir os princípios de **Confidencialidade, Integridade, Disponibilidade e Autenticidade** das informações.
+
+**Aspectos da PSI:**
+
+*   Deve estabelecer as responsabilidades dos funcionários, definir níveis de acesso e orientar sobre gestão de senhas e uso de redes seguras.
+*   Deve ser construída de forma **colaborativa** e se adequar à realidade da empresa e dos funcionários, exigindo **esforço constante de conscientização** para se tornar cultura.
+*   A **alta direção** deve estabelecê-la, garantindo que seja apropriada ao propósito da organização e inclua objetivos de segurança e um comprometimento com a melhoria contínua.
+*   É obrigatório que seja comunicada e esteja disponível internamente.
+
+### Normas e Regulamentações
+
+Diversos *frameworks* e normas guiam as ações de segurança, como a **Família ISO 27000**:
+
+*   **ISO 27001:** Define os requisitos para o SGSI.
+*   **ISO 27002:** Oferece diretrizes e melhores práticas para implementar controles de segurança.
+*   **ISO 27005:** Foca na gestão de riscos.
+*   **ISO 27701:** Estende os princípios da ISO 27001 para cobrir a **privacidade de dados**.
+*   **ISO 19011:** Fornece diretrizes sobre como auditar sistemas de gestão, incluindo o SGSI.
+
+A **LGPD (Lei Geral de Proteção de Dados)** é uma legislação brasileira que se concentra na proteção de dados pessoais e nos direitos dos titulares, impondo **obrigações legais** às organizações que tratam esses dados. A LGPD está alinhada com a ISO 27701.
+
+É essencial que todos os funcionários assinem um **termo de ciência e responsabilidade** para que ninguém possa alegar ignorância em caso de incidentes de segurança ou privacidade.
+
+## Aula 2: Cultura de Segurança
+
+A cultura de segurança é vital, pois a segurança é responsabilidade de **todos**. A ética profissional e a legislação, como a LGPD, garantem o direito à privacidade e exigem o uso responsável das tecnologias.
+
+### Ambiente de Desenvolvimento Seguro
+
+Um ambiente de desenvolvimento confiável visa garantir que a segurança seja uma consideração central desde o **início do processo de desenvolvimento de software e sistemas**. Seu objetivo é minimizar riscos e vulnerabilidades antes que o sistema chegue à produção.
+
+Uma política de desenvolvimento seguro deve incluir:
+
+*   Desenvolvimento de **código criptografado**.
+*   Uso de **HTTPS** em ambiente web.
+*   Políticas de **senhas seguras**.
+*   Proteção do acesso aos dados nos servidores com *firewall*.
+*   Definição e divulgação de uma **política de privacidade**.
+*   Manutenção de conhecimento sobre **programação segura**.
+
+### Ética e Aspectos Operacionais
+
+O gerenciamento da segurança envolve a gestão de medidas éticas e legais. É fundamental **proteger dados pessoais** e sensíveis (incluindo anonimização e criptografia) em conformidade com leis como a **LGPD** e a **GDPR** (na Europa). As organizações devem usar os dados de forma ética, seguindo o **consentimento informado** e respeitando a privacidade.
+
+### Tendências e Ameaças Futuras
+
+O futuro da segurança será moldado por tecnologias e ameaças emergentes:
+
+*   **Tecnologias Emergentes:** **Inteligência Artificial** (*Machine Learning*) aprimorando a detecção e resposta a ameaças; **Computação Quântica** (ameaçando a criptografia atual, exigindo o desenvolvimento de criptografia pós-quântica); **Blockchain** (para integridade e autenticidade); **5G e IoT** (trazendo novos desafios de segurança); e **Edge Computing** (exigindo abordagens de segurança específicas).
+*   **Ameaças Emergentes:** Ataques sofisticados conduzidos por IA; ataques a dispositivos IoT; *ransomware* aprimorado (com táticas de dupla extorsão); *Deepfakes* (ameaçando a autenticidade da informação); e *ciberataques estatais*.
+
+## Aula 3: Controle de Acesso e Autenticação
+
+Controles de acesso, autenticação e autorização são alvos importantes de avaliações em auditorias.
+
+### Modelos de Controle de Acesso
+
+Um modelo de acesso define as regras e políticas sobre como os recursos podem ser acessados:
+
+*   **DAC (Controle de Acesso Discretional):** Proprietários dos recursos definem as permissões.
+*   **MAC (Controle de Acesso Mandatório):** Baseado em políticas definidas por administradores ou regulamentações (usado em ambientes militares).
+*   **RBAC (Controle de Acesso Baseado em Funções):** Acesso concedido com base nas funções do usuário (eficaz para grandes grupos).
+*   **ABAC (Controle de Acesso Baseado em Atributos):** Controle baseado em diversos atributos, como identidade do usuário ou localização (alta flexibilidade).
+
+Os controles de acesso são os mecanismos técnicos e procedimentais que implementam essas políticas.
+
+### Mecanismos AAA e IAM
+
+Os mecanismos são cruciais para garantir que os usuários apropriados tenham acesso seguro.
+
+1.  **Autenticação:** Processo de verificação da identidade do usuário. Formas incluem:
+    *   **Senhas fortes**.
+    *   **Autenticação de Dois Fatores (2FA)**: Adiciona uma camada extra, exigindo algo que o usuário possui (token, aplicativo) além da senha.
+    *   **Biometria** (impressão digital, reconhecimento facial).
+    *   **Certificados digitais**.
+2.  **Autorização:** Determina quais ações um usuário pode realizar após a autenticação, baseada nas permissões de acesso.
+3.  **Auditoria:** Monitoramento e registro de atividades de acesso.
+
+O **Gerenciamento de Identidade e Acesso (IAM)** é a estrutura que administra a identidade e o acesso, garantindo que as identidades sejam verificadas e autorizadas. Sistemas IAM oferecem centralização de identidades, controle de permissões, recursos de *Self-Service* (redefinição de senha) e **Autenticação Única (SSO)**.
+
+## Aula 4: Armazenamento de Dados
+
+A segurança de dados se relaciona com o **ciclo de vida dos dados**, que vai da sua criação até o descarte.
+
+### Tratamento e Ciclo de Vida dos Dados
+
+1.  **Anonimização de Dados:** Processo que remove ou mascara informações, tornando os dados pessoais **não identificáveis**. Isso é feito para proteger a privacidade e cumprir regulamentações como a LGPD.
+2.  **Classificação de Dados:** Categoriza informações com base em sua sensibilidade (ex: públicas, internas, confidenciais) para determinar como devem ser tratadas e protegidas.
+3.  **Retenção de Dados:** Política que define o tempo de manutenção da informação, baseada em requisitos legais e de negócio. A retenção excessiva é um risco.
+4.  **Destruição de Dados:** Eliminação segura e **irrecuperável** das informações quando não são mais necessárias, prevenindo vazamentos.
+
+### Segurança em Cloud Computing
+
+A **computação em nuvem** (*cloud computing*) é a disponibilidade de recursos computacionais, incluindo armazenamento, que traz elasticidade e amplo acesso.
+
+A **confiabilidade da segurança em nuvem** exige múltiplas camadas de proteção, como:
+
+*   Uso de **IAM** para gerenciar o acesso de usuários autorizados.
+*   **Criptografia** para dados em repouso, em trânsito e em uso.
+*   Monitoramento contínuo e auditoria.
+*   **Redundância** de dados para manter a disponibilidade.
+*   Conformidade com regulamentações (como a LGPD).
+
+Um desafio notável na nuvem é o **acesso compartilhado** devido ao modelo *multitenancy*, onde uma única instância lógica é compartilhada por vários clientes.
+
+### Gestão de Acesso a Dados
+
+É crucial garantir que os usuários acessem apenas o que é apropriado, seguindo o princípio de **"menos privilégios"**. As recomendações incluem:
+
+*   Classificar os dados para aplicar medidas de segurança.
+*   Implementar autenticação robusta (2FA, biometria).
+*   Adotar modelos como RBAC (Controle de Acesso Baseado em Função).
+*   Monitorar continuamente as atividades de acesso.
+*   Treinar e conscientizar os funcionários.
+*   Ter um plano de resposta a incidentes para violações.

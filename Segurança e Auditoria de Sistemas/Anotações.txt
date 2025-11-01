@@ -1,0 +1,162 @@
+A disciplina de Segurança da Informação aborda os **desafios
+ diários** impostos pelas mudanças tecnológicas, o que gera preocupações crescentes com a segurança dos sistemas e a **segurança cibernética**. As tecnologias, embora tragam muitos benefícios, introduziram **vulnerabilidades** em nossas vidas digitais. É difícil garantir 100% de segurança, mas a disciplina foca em delinear **estratégias de defesa** para alcançar o máximo de proteção possível.
+
+## Aula 1: Introdução à Segurança da Informação
+
+A segurança da informação é definida como a proteção da informação contra diversos tipos de ameaça para garantir a continuidade dos negócios, minimizar danos e maximizar o retorno dos investimentos. Segundo o NIST (2020), a segurança da informação envolve **identificação, proteção, detecção, resposta e recuperação**.
+
+### Pilares da Segurança da Informação (Tríade CID)
+
+Os conceitos que norteiam as práticas de segurança são fundamentados na tríade CID (Confidencialidade, Integridade e Disponibilidade):
+
+1.  **Confidencialidade:** É a propriedade de garantir que a informação **não seja revelada** ou esteja disponível a indivíduos, entidades ou processos não autorizados.
+2.  **Integridade:** É a propriedade de **salvaguardar a exatidão e a completeza** dos ativos, protegendo os dados contra modificações não autorizadas.
+3.  **Disponibilidade:** Garante o tempo e a **acessibilidade** dos dados e sistemas da organização quando necessário.
+
+A tríade é complementada por outras propriedades vitais:
+
+*   **Autenticidade:** Busca garantir que determinada pessoa ou sistema é, de fato, quem diz ser.
+*   **Não-Repúdio (Irretratabilidade):** Garante que o usuário não possa negar ter gerado determinado conteúdo ou realizado uma ação.
+*   **Legalidade:** Refere-se aos aspectos de legislação e normatização.
+
+### Conceitos Fundamentais
+
+Para se proteger adequadamente, é essencial compreender conceitos básicos definidos nas normas ABNT NBR ISO/IEC 27001 e 27002:
+
+*   **Ativo:** Qualquer elemento que tenha valor para uma organização, como informações, equipamentos ou pessoas.
+*   **Informação:** Um ativo valioso que necessita de proteção adequada.
+*   **Vulnerabilidade:** Um ponto fraco que, quando explorado, resulta em um incidente de segurança (ex: fraquezas no ser humano, meio físico, hardware, software ou rede).
+*   **Ameaça:** Causa potencial de um incidente indesejado que pode resultar em danos. As ameaças só existem se houver vulnerabilidades.
+*   **Agente de Ameaça:** Aquele que explora intencionalmente uma vulnerabilidade por meio de uma técnica de ataque.
+*   **Risco:** É a probabilidade de um agente de ameaça explorar vulnerabilidades de ativos, transformando uma ameaça em um incidente de segurança e causando impactos.
+*   **Controles:** Mecanismos de defesa (físicos, tecnológicos ou processos) aplicados nos ativos para remover vulnerabilidades.
+
+### Elementos a Serem Protegidos
+
+Os três grandes grupos de elementos que devem ser protegidos são:
+
+1.  **Pessoas:** Agentes de ameaça exploram fraquezas humanas, por exemplo, através da **Engenharia Social** (boa vontade ou inocência) ou **suborno**.
+2.  **Processos:** Procedimentos de segurança bem definidos, como políticas de senhas ou práticas de backup.
+3.  **Tecnologia e Ativos:** Engloba ativos físicos (hardwares, locais) e tecnológicos (sistemas operacionais, aplicativos, firewalls).
+
+## Aula 2: Princípios de Segurança da Informação (Gestão de Riscos)
+
+O **Sistema de Gestão de Segurança da Informação (SGSI)** é crucial para uma atuação holística. A gestão de riscos é um processo contínuo (ABNT NBR ISO/IEC 27005:2011).
+
+### Riscos e Mapeamento
+
+**Risco** é a possibilidade de uma ameaça explorar vulnerabilidades, prejudicando a organização. Os riscos podem vir de fatores internos (erros humanos, falhas de sistema) ou externos (ataques cibernéticos, eventos naturais).
+
+A análise e avaliação de riscos são feitas pelo cálculo do produto entre a **Probabilidade (P)** de ocorrência e o **Impacto (I)** gerado (R = P \* I).
+
+### Tratamento de Riscos (Contramedidas)
+
+Após a identificação e análise, os riscos podem ser tratados das seguintes formas:
+
+1.  **Mitigação ou Redução:** Aplicação de **controles de segurança** ou mecanismos de defesa.
+2.  **Aceitação:** Ocorre quando o risco é muito baixo ou os controles são muito caros (exige monitoramento).
+3.  **Eliminação:** O risco é evitado, muitas vezes inutilizando o ativo.
+4.  **Transferência:** O risco é transferido (ex: seguro, contratação de *data center*).
+
+### Tipos de Controles de Segurança
+
+Os controles de segurança visam a proteção e a prevenção contra riscos. Eles podem ser:
+
+*   **Físicos:** Controle de acesso, câmeras, guardas.
+*   **Tecnológicos:** Firewall, VPN, biometria, antivírus, criptografia.
+*   **Processuais:** Políticas de troca de senhas, frequência de backups, conscientização.
+*   **Regulatórios:** Leis como a Lei Geral de Proteção de Dados (LGPD).
+
+Os controles também são classificados por sua função: **Prevenção** (evitar que o risco se torne incidente, ex: criptografia), **Detecção** (identificar ataques, ex: IDS), e **Resposta** (retornar ao estado original, ex: restauração de sistema, análise forense).
+
+## Aula 3: Segurança de Redes
+
+A segurança de redes é crucial devido à grande dependência e complexidade das aplicações atuais (nuvens, IoT). O protocolo **TCP/IP** é a base da internet, mas apresenta possibilidades de ataques.
+
+### Prática dos Invasores
+
+Invasores tipicamente seguem quatro passos:
+
+1.  **Reconhecimento** e identificação de redes, hosts e usuários.
+2.  *Scanning* de **vulnerabilidades** para identificar falhas.
+3.  Aprofundamento manual e **exploração** dessas vulnerabilidades.
+4.  **Evasão** dos sistemas de segurança.
+
+### Vulnerabilidades de Rede
+
+As fraquezas podem se manifestar em diferentes camadas:
+
+*   **Hardware:** Falhas em dispositivos de rede, *switches*, roteadores ou *firewalls*.
+*   **Software:** Bugs, falhas de segurança, vulnerabilidades em sistemas operacionais e aplicativos.
+*   **Protocolos:** Falhas em protocolos de rede como TCP/IP, BGP, DNS.
+*   **Aplicações:** Vulnerabilidades em aplicativos *web* ou servidores de *e-mail*.
+
+### Ameaças e Ataques Comuns
+
+As ameaças e ataques são variados, incluindo:
+
+*   **Malware:** Vírus, *Trojan* (software com programação oculta), *Worms* (se multiplicam e exploram vulnerabilidades), *Ransomware* (sequestro de dados por criptografia e cobrança de resgate), *Backdoor* (acesso remoto por invasor).
+*   **Spoofing:** Mascaramento de pacotes IP com endereços falsos.
+*   **Phishing:** Tentativa de "pescar" dados pessoais através de mensagens falsas com intenções financeiras.
+*   **DoS (Negação de Serviço) e DDoS (Negação de Serviço Distribuída):** Buscam sobrecarregar um servidor ou rede, tornando-os inacessíveis a usuários legítimos.
+*   **Ataque de Força Bruta:** Tentativa repetida de adivinhar senhas.
+*   **Ataque "Homem do Meio" (MitM):** Interceptação da comunicação entre duas partes, permitindo leitura, modificação ou injeção de dados.
+
+### Proteção de Redes
+
+A proteção de rede exige uma abordagem abrangente, combinando:
+
+*   **Firewall, IDS e IPS:** Controle de tráfego, detecção e prevenção de atividades suspeitas.
+*   **Criptografia:** Para proteger dados em trânsito e confidencialidade.
+*   **Atualizações de Software e Patches:** Mitigar vulnerabilidades conhecidas.
+*   **Autenticação Forte:** Uso de MFA (Autenticação de Múltiplos Fatores).
+*   **Segmentação de Rede:** Dividir a rede, criando uma **DMZ (DeMilitarized Zone)** entre a rede pública e a interna para adicionar uma camada de proteção.
+*   **Testes de Segurança:** Realização de testes de penetração e avaliação de vulnerabilidade.
+*   **Conscientização dos Usuários:** Educação sobre melhores práticas, como detecção de *phishing*.
+
+## Aula 4: Criptografia
+
+A criptografia é uma técnica que protege dados, tornando-os **ilegíveis** para quem não possui a chave de descriptografia apropriada. É crucial para garantir a **Confidencialidade**, verificar a **Integridade** e suportar a **Autenticação**.
+
+### Evolução Histórica
+
+A criptografia evoluiu de métodos antigos baseados em substituição, como a **Cifra de César** (50 a.C.) e a **Cifra de Vigenère** (Século XVI), passando por dispositivos mecânicos como a **Máquina Enigma** (Segunda Guerra Mundial). A grande mudança veio com a **Criptografia de Chave Pública (Assimétrica)** nos anos 1970, destacando-se o **Algoritmo RSA** (1978). Hoje, a área evolui para técnicas mais sofisticadas, como a **Criptografia de Curva Elíptica** e a **Criptografia Quântica**.
+
+Outra prática importante é a **Esteganografia**, que oculta informações dentro de outras mensagens ou objetos físicos para evitar a detecção.
+
+### Aplicações
+
+A criptografia é essencial para:
+
+*   **Proteção de dados em trânsito:** Usada em protocolos como HTTPS, TLS e SSL.
+*   **Armazenamento Seguro:** Proteção de dados em dispositivos, servidores e na nuvem.
+*   **Conformidade Legal:** Cumprimento de regulamentações que exigem a proteção de dados sensíveis (ex: HIPAA, PCI DSS).
+*   **Prevenção contra Ransomware:** Criando *backups* criptografados de dados críticos.
+*   **Proteção de Senhas:** Criptografando senhas armazenadas em bancos de dados.
+
+### Principais Técnicas de Criptografia
+
+Existem diversas técnicas, dependendo da necessidade de segurança:
+
+*   **Criptografia Simétrica (Chave Secreta):** Usa a mesma chave para criptografar e descriptografar (ex: AES, DES). É eficiente e rápida.
+*   **Criptografia de Chave Pública (Assimétrica):** Usa um par de chaves (pública para criptografar, privada para descriptografar) (ex: RSA, ECC).
+*   **Hashing Criptográfico:** Cria um resumo fixo dos dados para verificar a integridade (ex: SHA-256).
+*   **Criptografia Homomórfica:** Permite operar dados enquanto estão criptografados, útil para processamento seguro em serviços de nuvem.
+*   **Criptografia Quântica:** Utiliza princípios da física quântica para segurança inquebrável.
+
+## Aula 5: Encerramento da Unidade
+
+A segurança da informação é um campo fundamental que se baseia na garantia dos princípios da **Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não-Repúdio**. A missão é se antecipar aos invasores, enxergar as fraquezas e elaborar estratégias.
+
+O *Cybersecurity Framework* (2020) resume o trabalho em cinco processos essenciais: **identificação, proteção, detecção, resposta e recuperação**.
+
+Os mecanismos de defesa (como *firewalls*, *antimalware*, controles de acesso, atualizações e criptografia) devem ser implementados em **múltiplas camadas** para dificultar ao máximo todas as possibilidades de ataques. A **conscientização e o treinamento** dos colaboradores são aspectos cruciais, pois os erros humanos (falhas em senhas, falta de treinamento) são grandes vulnerabilidades.
+
+**Analogia para Compreensão:**
+
+Pense na segurança da informação como um castelo medieval (o seu ambiente corporativo ou pessoal).
+*   **Tríade CID (Confidencialidade, Integridade, Disponibilidade):** São os tesouros que você está protegendo.
+*   **Vulnerabilidades:** São rachaduras nas muralhas ou portões mal fechados.
+*   **Ameaças:** São os exércitos inimigos (agentes de ameaça) se aproximando do castelo, tentando explorar as rachaduras.
+*   **Gestão de Riscos:** É o conselho de guerra, calculando a probabilidade de o inimigo passar por cada rachadura e o impacto se ele conseguir.
+*   **Controles (Firewalls, Criptografia, Treinamento):** São os reforços das muralhas, as armadilhas (IDS/IPS), os guardas treinados (pessoas) e os cadeados (criptografia) colocados nas câmaras do tesouro para que, mesmo que o inimigo entre, ele não consiga ler o mapa ou usar o ouro.
