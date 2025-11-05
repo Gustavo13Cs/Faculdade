@@ -11,9 +11,6 @@ Contudo, a tecnologia por si só é insuficiente. Uma postura de segurança robu
 Finalmente, o cenário de segurança está em constante evolução, impulsionado por tecnologias emergentes como Inteligência Artificial, IoT e computação quântica, que trazem tanto novas oportunidades de defesa quanto ameaças cibernéticas cada vez mais sofisticadas. A conformidade com legislações, como a Lei Geral de Proteção de Dados (LGPD), não é apenas uma obrigação legal, mas um componente central da confiança e da continuidade dos negócios na era digital.
 
 
---------------------------------------------------------------------------------
-
-
 1. Fundamentos Essenciais da Segurança da Informação
 
 A compreensão dos conceitos basilares é o primeiro passo para a construção de qualquer estratégia de proteção eficaz. Estes princípios e definições formam a linguagem universal da segurança da informação.
